@@ -1,0 +1,5102 @@
+{
+    "1": [
+       {
+          "tajik": "ганда",
+          "english": "bad",
+          "type": "adjective"
+       },
+       {
+          "tajik": "калон",
+          "english": "big",
+          "type": "adjective"
+       },
+       {
+          "tajik": "нағз",
+          "english": "good",
+          "type": "adjective"
+       },
+       {
+          "tajik": "гарм",
+          "english": "hot",
+          "type": "adjective"
+       },
+       {
+          "tajik": "майда",
+          "english": "small",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хунук",
+          "english": "cold",
+          "type": "adjective"
+       },
+       {
+          "tajik": "зебо",
+          "english": "beautiful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "безеб",
+          "english": "ugly",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пишак",
+          "english": "cat",
+          "type": "animal"
+       },
+       {
+          "tajik": "саг",
+          "english": "dog",
+          "type": "animal"
+       },
+       {
+          "tajik": "гов",
+          "english": "cow",
+          "type": "animal"
+       },
+       {
+          "tajik": "гӯсфанд",
+          "english": "sheep",
+          "type": "animal"
+       },
+       {
+          "tajik": "буз",
+          "english": "goat",
+          "type": "animal"
+       },
+       {
+          "tajik": "асп",
+          "english": "horse",
+          "type": "animal"
+       },
+       {
+          "tajik": "паранда",
+          "english": "bird",
+          "type": "animal"
+       },
+       {
+          "tajik": "мурғ",
+          "english": "chicken",
+          "type": "animal"
+       },
+       {
+          "tajik": "муш",
+          "english": "mouse",
+          "type": "animal"
+       },
+       {
+          "tajik": "хар",
+          "english": "donkey",
+          "type": "animal"
+       },
+       {
+          "tajik": "хуқ",
+          "english": "pig",
+          "type": "animal"
+       },
+       {
+          "tajik": "мебахшед",
+          "english": "excuse me",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "хайр",
+          "english": "goodbye",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "ассалом",
+          "english": "hello",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "не",
+          "english": "no",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "илтимос",
+          "english": "please",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "раҳмат",
+          "english": "thank you",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "ҳа",
+          "english": "yes",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "албатта",
+          "english": "of course",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "хуш омадед",
+          "english": "welcome",
+          "type": "greeting&essential phrases"
+       },
+       {
+          "tajik": "ҳашт",
+          "english": "eight",
+          "type": "number"
+       },
+       {
+          "tajik": "панҷ",
+          "english": "five",
+          "type": "number"
+       },
+       {
+          "tajik": "чор",
+          "english": "four",
+          "type": "number"
+       },
+       {
+          "tajik": "нӯҳ",
+          "english": "nine",
+          "type": "number"
+       },
+       {
+          "tajik": "як",
+          "english": "one",
+          "type": "number"
+       },
+       {
+          "tajik": "ҳафт",
+          "english": "seven",
+          "type": "number"
+       },
+       {
+          "tajik": "шаш",
+          "english": "six",
+          "type": "number"
+       },
+       {
+          "tajik": "даҳ",
+          "english": "ten",
+          "type": "number"
+       },
+       {
+          "tajik": "се",
+          "english": "three",
+          "type": "number"
+       },
+       {
+          "tajik": "ду",
+          "english": "two",
+          "type": "number"
+       }
+    ],
+    "2": [
+       {
+          "tajik": "арзон",
+          "english": "cheap",
+          "type": "adjective"
+       },
+       {
+          "tajik": "душвор",
+          "english": "difficult",
+          "type": "adjective"
+       },
+       {
+          "tajik": "осон",
+          "english": "easy",
+          "type": "adjective"
+       },
+       {
+          "tajik": "қимат",
+          "english": "expensive",
+          "type": "adjective"
+       },
+       {
+          "tajik": "гурусна",
+          "english": "hungry",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бомаза",
+          "english": "tasty",
+          "type": "adjective"
+       },
+       {
+          "tajik": "чап",
+          "english": "left",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ташна",
+          "english": "thirsty",
+          "type": "adjective"
+       },
+       {
+          "tajik": "нав",
+          "english": "new",
+          "type": "adjective"
+       },
+       {
+          "tajik": "кӯҳна",
+          "english": "old",
+          "type": "adjective"
+       },
+       {
+          "tajik": "рост",
+          "english": "right",
+          "type": "adjective"
+       },
+       {
+          "tajik": "себ",
+          "english": "apple",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "нон",
+          "english": "bread",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "чой",
+          "english": "tea",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "об",
+          "english": "water",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "картошка",
+          "english": "potato",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "зардолу",
+          "english": "apricot",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "шир",
+          "english": "milk",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "банан",
+          "english": "banana",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "сабзӣ",
+          "english": "carrot",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "бодиринг",
+          "english": "cucumber",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "тухм",
+          "english": "egg",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "орд",
+          "english": "flour",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "ангур",
+          "english": "grape",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "ҳаждаҳ",
+          "english": "eighteen",
+          "type": "number"
+       },
+       {
+          "tajik": "ёздаҳ",
+          "english": "eleven",
+          "type": "number"
+       },
+       {
+          "tajik": "понздаҳ",
+          "english": "fifteen",
+          "type": "number"
+       },
+       {
+          "tajik": "чордаҳ",
+          "english": "fourteen",
+          "type": "number"
+       },
+       {
+          "tajik": "нуздаҳ",
+          "english": "nineteen",
+          "type": "number"
+       },
+       {
+          "tajik": "ҳабдаҳ",
+          "english": "seventeen",
+          "type": "number"
+       },
+       {
+          "tajik": "шонздаҳ",
+          "english": "sixteen",
+          "type": "number"
+       },
+       {
+          "tajik": "сенздаҳ",
+          "english": "thirteen",
+          "type": "number"
+       },
+       {
+          "tajik": "дувоздаҳ",
+          "english": "twelve",
+          "type": "number"
+       },
+       {
+          "tajik": "бист",
+          "english": "twenty",
+          "type": "number"
+       },
+       {
+          "tajik": "писар",
+          "english": "boy",
+          "type": "people"
+       },
+       {
+          "tajik": "падар",
+          "english": "father",
+          "type": "people"
+       },
+       {
+          "tajik": "духтар",
+          "english": "girl",
+          "type": "people"
+       },
+       {
+          "tajik": "модар",
+          "english": "mother",
+          "type": "people"
+       },
+       {
+          "tajik": "фарзанд",
+          "english": "child",
+          "type": "people"
+       },
+       {
+          "tajik": "мард",
+          "english": "man ",
+          "type": "people"
+       },
+       {
+          "tajik": "писар",
+          "english": "son",
+          "type": "people"
+       },
+       {
+          "tajik": "зан",
+          "english": "woman",
+          "type": "people"
+       },
+       {
+          "tajik": "рӯз",
+          "english": "day",
+          "type": "time&date"
+       },
+       {
+          "tajik": "ҷумъа",
+          "english": "Friday",
+          "type": "time&date"
+       },
+       {
+          "tajik": "душанбе",
+          "english": "Monday",
+          "type": "time&date"
+       },
+       {
+          "tajik": "шанбе",
+          "english": "Saturday",
+          "type": "time&date"
+       },
+       {
+          "tajik": "якшанбе",
+          "english": "Sunday",
+          "type": "time&date"
+       },
+       {
+          "tajik": "панҷшанбе",
+          "english": "Thursday",
+          "type": "time&date"
+       },
+       {
+          "tajik": "имрӯз",
+          "english": "today",
+          "type": "time&date"
+       },
+       {
+          "tajik": "пагоҳ",
+          "english": "tomorrow",
+          "type": "time&date"
+       },
+       {
+          "tajik": "сешанбе",
+          "english": "Tuesday",
+          "type": "time&date"
+       },
+       {
+          "tajik": "чоршанбе",
+          "english": "Wednesday",
+          "type": "time&date"
+       },
+       {
+          "tajik": "дирӯз",
+          "english": "yesterday",
+          "type": "time&date"
+       }
+    ],
+    "3": [
+       {
+          "tajik": "китоб",
+          "english": "book",
+          "type": "class&office"
+       },
+       {
+          "tajik": "ручка",
+          "english": "pen",
+          "type": "class&office"
+       },
+       {
+          "tajik": "қалам",
+          "english": "pencil",
+          "type": "class&office"
+       },
+       {
+          "tajik": "дафтар",
+          "english": "notebook",
+          "type": "class&office"
+       },
+       {
+          "tajik": "луғат",
+          "english": "dictionary",
+          "type": "class&office"
+       },
+       {
+          "tajik": "кор",
+          "english": "work",
+          "type": "class&office"
+       },
+       {
+          "tajik": "саҳифа",
+          "english": "page",
+          "type": "class&office"
+       },
+       {
+          "tajik": "сиёҳ",
+          "english": "black",
+          "type": "colour"
+       },
+       {
+          "tajik": "кабуд",
+          "english": "blue",
+          "type": "colour"
+       },
+       {
+          "tajik": "сабз",
+          "english": "green",
+          "type": "colour"
+       },
+       {
+          "tajik": "сурх",
+          "english": "red",
+          "type": "colour"
+       },
+       {
+          "tajik": "сафед",
+          "english": "white",
+          "type": "colour"
+       },
+       {
+          "tajik": "зард",
+          "english": "yellow",
+          "type": "colour"
+       },
+       {
+          "tajik": "каҳваранг",
+          "english": "brown",
+          "type": "colour"
+       },
+       {
+          "tajik": "хокистарранг",
+          "english": "grey",
+          "type": "colour"
+       },
+       {
+          "tajik": "норанҷӣ",
+          "english": "orange",
+          "type": "colour"
+       },
+       {
+          "tajik": "гулобӣ",
+          "english": "pink",
+          "type": "colour"
+       },
+       {
+          "tajik": "бунафш",
+          "english": "purple",
+          "type": "colour"
+       },
+       {
+          "tajik": "пиёла",
+          "english": "cup (Tajik kind)",
+          "type": "home"
+       },
+       {
+          "tajik": "миз",
+          "english": "table",
+          "type": "home"
+       },
+       {
+          "tajik": "вилка",
+          "english": "fork",
+          "type": "home"
+       },
+       {
+          "tajik": "стол, миз",
+          "english": "table",
+          "type": "home"
+       },
+       {
+          "tajik": "корд",
+          "english": "knife",
+          "type": "home"
+       },
+       {
+          "tajik": "тиреза",
+          "english": "window",
+          "type": "home"
+       },
+       {
+          "tajik": "коса",
+          "english": "bowl",
+          "type": "home"
+       },
+       {
+          "tajik": "қошуқ",
+          "english": "spoon",
+          "type": "home"
+       },
+       {
+          "tajik": "дар",
+          "english": "door",
+          "type": "home"
+       },
+       {
+          "tajik": "ҳаштод",
+          "english": "eighty",
+          "type": "number"
+       },
+       {
+          "tajik": "панҷоҳ",
+          "english": "fifty",
+          "type": "number"
+       },
+       {
+          "tajik": "панҷоҳу ҳашт",
+          "english": "fifty-eight",
+          "type": "number"
+       },
+       {
+          "tajik": "чил",
+          "english": "forty",
+          "type": "number"
+       },
+       {
+          "tajik": "чилу ҳафт",
+          "english": "forty-seven",
+          "type": "number"
+       },
+       {
+          "tajik": "навад",
+          "english": "ninety",
+          "type": "number"
+       },
+       {
+          "tajik": "ҳафтод",
+          "english": "seventy",
+          "type": "number"
+       },
+       {
+          "tajik": "шаст",
+          "english": "sixty",
+          "type": "number"
+       },
+       {
+          "tajik": "сӣ",
+          "english": "thirty",
+          "type": "number"
+       },
+       {
+          "tajik": "сию чор",
+          "english": "thirty-four",
+          "type": "number"
+       },
+       {
+          "tajik": "бисту як",
+          "english": "twenty-one",
+          "type": "number"
+       },
+       {
+          "tajik": "бисту ду",
+          "english": "twenty-two",
+          "type": "number"
+       },
+       {
+          "tajik": "мошин",
+          "english": "car",
+          "type": "transport"
+       },
+       {
+          "tajik": "самолёт",
+          "english": "plane",
+          "type": "transport"
+       },
+       {
+          "tajik": "автобус",
+          "english": "bus",
+          "type": "transport"
+       },
+       {
+          "tajik": "троллейбус",
+          "english": "trolley bus",
+          "type": "transport"
+       },
+       {
+          "tajik": "таксӣ",
+          "english": "taxi",
+          "type": "transport"
+       },
+       {
+          "tajik": "поезд",
+          "english": "train",
+          "type": "transport"
+       },
+       {
+          "tajik": "маршрутка",
+          "english": "minibus",
+          "type": "transport"
+       },
+       {
+          "tajik": "велосипед",
+          "english": "bicycle",
+          "type": "transport"
+       },
+       {
+          "tajik": "киштӣ",
+          "english": "ship",
+          "type": "transport"
+       }
+    ],
+    "4": [
+       {
+          "tajik": "чиркин",
+          "english": "dirty",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пир",
+          "english": "old (people)",
+          "type": "adjective"
+       },
+       {
+          "tajik": "талх",
+          "english": "bitter",
+          "type": "adjective"
+       },
+       {
+          "tajik": "холӣ",
+          "english": "empty",
+          "type": "adjective"
+       },
+       {
+          "tajik": "фарбеҳ",
+          "english": "fat",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хуб",
+          "english": "good",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хурсанд",
+          "english": "happy",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бисёр",
+          "english": "many",
+          "type": "adjective"
+       },
+       {
+          "tajik": "касал",
+          "english": "sick",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ширин",
+          "english": "sweet",
+          "type": "adjective"
+       },
+       {
+          "tajik": "тоза",
+          "english": "clean",
+          "type": "adjective"
+       },
+       {
+          "tajik": "шер",
+          "english": "lion",
+          "type": "animal"
+       },
+       {
+          "tajik": "фил",
+          "english": "elephant",
+          "type": "animal"
+       },
+       {
+          "tajik": "маймун",
+          "english": "monkey",
+          "type": "animal"
+       },
+       {
+          "tajik": "ҳайвон",
+          "english": "animal",
+          "type": "animal"
+       },
+       {
+          "tajik": "моҳӣ",
+          "english": "fish",
+          "type": "animal"
+       },
+       {
+          "tajik": "харгӯш",
+          "english": "rabbit",
+          "type": "animal"
+       },
+       {
+          "tajik": "хирс",
+          "english": "bear",
+          "type": "animal"
+       },
+       {
+          "tajik": "қурбоққа",
+          "english": "frog",
+          "type": "animal"
+       },
+       {
+          "tajik": "мор",
+          "english": "snake",
+          "type": "animal"
+       },
+       {
+          "tajik": "тортанак",
+          "english": "spider",
+          "type": "animal"
+       },
+       {
+          "tajik": "пашша",
+          "english": "fly",
+          "type": "animal"
+       },
+       {
+          "tajik": "гӯш",
+          "english": "ear",
+          "type": "body"
+       },
+       {
+          "tajik": "чашм",
+          "english": "eye",
+          "type": "body"
+       },
+       {
+          "tajik": "даҳон",
+          "english": "mouth",
+          "type": "body"
+       },
+       {
+          "tajik": "бинӣ",
+          "english": "nose",
+          "type": "body"
+       },
+       {
+          "tajik": "пой",
+          "english": "foot",
+          "type": "body"
+       },
+       {
+          "tajik": "даст",
+          "english": "hand",
+          "type": "body"
+       },
+       {
+          "tajik": "мӯй",
+          "english": "hair",
+          "type": "body"
+       },
+       {
+          "tajik": "рӯӣ",
+          "english": "face",
+          "type": "body"
+       },
+       {
+          "tajik": "по",
+          "english": "foot",
+          "type": "body"
+       },
+       {
+          "tajik": "сар",
+          "english": "head",
+          "type": "body"
+       },
+       {
+          "tajik": "дандон",
+          "english": "tooth",
+          "type": "body"
+       },
+       {
+          "tajik": "гӯшт",
+          "english": "meat",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "шакар",
+          "english": "sugar",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "карам",
+          "english": "cabbage",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "торт",
+          "english": "cake",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "панир",
+          "english": "cheese",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "олуча",
+          "english": "cherry",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "шоколад",
+          "english": "chocolate",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "қаҳва",
+          "english": "coffee",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "қаймоқ",
+          "english": "cream",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "харбуза",
+          "english": "melon",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "нок",
+          "english": "pear",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "мурч",
+          "english": "pepper",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "биринҷ",
+          "english": "rice",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "намак",
+          "english": "salt",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "тарбуз",
+          "english": "watermelon",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "духтар",
+          "english": "daughter",
+          "type": "people"
+       },
+       {
+          "tajik": "ака",
+          "english": "older brother",
+          "type": "people"
+       },
+       {
+          "tajik": "апа",
+          "english": "older sister",
+          "type": "people"
+       },
+       {
+          "tajik": "додар",
+          "english": "younger brother",
+          "type": "people"
+       },
+       {
+          "tajik": "хоҳар",
+          "english": "younger sister",
+          "type": "people"
+       },
+       {
+          "tajik": "бача",
+          "english": "child",
+          "type": "people"
+       },
+       {
+          "tajik": "бобо",
+          "english": "grandfather",
+          "type": "people"
+       },
+       {
+          "tajik": "бибӣ",
+          "english": "grandmother",
+          "type": "people"
+       },
+       {
+          "tajik": "вай",
+          "english": "he, she",
+          "type": "personal pronoun"
+       },
+       {
+          "tajik": "ман",
+          "english": "I",
+          "type": "personal pronoun"
+       },
+       {
+          "tajik": "онҳо",
+          "english": "they",
+          "type": "personal pronoun"
+       },
+       {
+          "tajik": "мо",
+          "english": "we",
+          "type": "personal pronoun"
+       },
+       {
+          "tajik": "шумо",
+          "english": "you (p. form.)",
+          "type": "personal pronoun"
+       },
+       {
+          "tajik": "ту",
+          "english": "you (s. inf.)",
+          "type": "personal pronoun"
+       },
+       {
+          "tajik": "бозор",
+          "english": "bazaar",
+          "type": "place"
+       },
+       {
+          "tajik": "хона",
+          "english": "house",
+          "type": "place"
+       },
+       {
+          "tajik": "ҳавлӣ",
+          "english": "house with a yard",
+          "type": "place"
+       },
+       {
+          "tajik": "роҳ",
+          "english": "road",
+          "type": "place"
+       },
+       {
+          "tajik": "куча",
+          "english": "street",
+          "type": "place"
+       },
+       {
+          "tajik": "мактаб",
+          "english": "school",
+          "type": "place"
+       },
+       {
+          "tajik": "бино",
+          "english": "building",
+          "type": "place"
+       },
+       {
+          "tajik": "боғ",
+          "english": "garden",
+          "type": "place"
+       },
+       {
+          "tajik": "чойхона",
+          "english": "tea house",
+          "type": "place"
+       }
+    ],
+    "5": [
+       {
+          "tajik": "апрел",
+          "english": "April",
+          "type": "time&date"
+       },
+       {
+          "tajik": "август",
+          "english": "August",
+          "type": "time&date"
+       },
+       {
+          "tajik": "декабр",
+          "english": "December",
+          "type": "time&date"
+       },
+       {
+          "tajik": "феврал",
+          "english": "February",
+          "type": "time&date"
+       },
+       {
+          "tajik": "январ",
+          "english": "January",
+          "type": "time&date"
+       },
+       {
+          "tajik": "июл",
+          "english": "July",
+          "type": "time&date"
+       },
+       {
+          "tajik": "июн",
+          "english": "June",
+          "type": "time&date"
+       },
+       {
+          "tajik": "март",
+          "english": "March",
+          "type": "time&date"
+       },
+       {
+          "tajik": "май",
+          "english": "May",
+          "type": "time&date"
+       },
+       {
+          "tajik": "ноябр",
+          "english": "November",
+          "type": "time&date"
+       },
+       {
+          "tajik": "октябр",
+          "english": "October",
+          "type": "time&date"
+       },
+       {
+          "tajik": "сентябр",
+          "english": "September",
+          "type": "time&date"
+       },
+       {
+          "tajik": "торик",
+          "english": "dark",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хушк",
+          "english": "dry",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бепул",
+          "english": "free (at no cost)",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пур",
+          "english": "full",
+          "type": "adjective"
+       },
+       {
+          "tajik": "дигар",
+          "english": "other",
+          "type": "adjective"
+       },
+       {
+          "tajik": "дуруст",
+          "english": "right, correct",
+          "type": "adjective"
+       },
+       {
+          "tajik": "наздик",
+          "english": "close",
+          "type": "adjective"
+       },
+       {
+          "tajik": "дур",
+          "english": "far",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бад",
+          "english": "bad",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ором",
+          "english": "calm",
+          "type": "adjective"
+       },
+       {
+          "tajik": "салқин",
+          "english": "cool",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бас",
+          "english": "enough",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бузург",
+          "english": "great",
+          "type": "adjective"
+       },
+       {
+          "tajik": "сахт",
+          "english": "hard (not soft)",
+          "type": "adjective"
+       },
+       {
+          "tajik": "дароз",
+          "english": "long",
+          "type": "adjective"
+       },
+       {
+          "tajik": "камбағал",
+          "english": "poor",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бой",
+          "english": "rich",
+          "type": "adjective"
+       },
+       {
+          "tajik": "оҳиста",
+          "english": "slow",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хурд",
+          "english": "small",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ин ҷо",
+          "english": "here",
+          "type": "adverb"
+       },
+       {
+          "tajik": "он ҷо",
+          "english": "there",
+          "type": "adverb"
+       },
+       {
+          "tajik": "кай",
+          "english": "when",
+          "type": "adverb"
+       },
+       {
+          "tajik": "куҷо",
+          "english": "where",
+          "type": "adverb"
+       },
+       {
+          "tajik": "қариб",
+          "english": "almost",
+          "type": "adverb"
+       },
+       {
+          "tajik": "барои чӣ",
+          "english": "why",
+          "type": "adverb"
+       },
+       {
+          "tajik": "боз",
+          "english": "again",
+          "type": "adverb"
+       },
+       {
+          "tajik": "аллакай",
+          "english": "already",
+          "type": "adverb"
+       },
+       {
+          "tajik": "фақат",
+          "english": "only",
+          "type": "adverb"
+       }
+    ],
+    "6": [
+       {
+          "tajik": "кош",
+          "english": "eyebrow",
+          "type": "body"
+       },
+       {
+          "tajik": "пушт",
+          "english": "back",
+          "type": "body"
+       },
+       {
+          "tajik": "абрӯ, қош",
+          "english": "eyebrow",
+          "type": "body"
+       },
+       {
+          "tajik": "мижа",
+          "english": "eyelash",
+          "type": "body"
+       },
+       {
+          "tajik": "ангушт",
+          "english": "finger",
+          "type": "body"
+       },
+       {
+          "tajik": "дил",
+          "english": "heart",
+          "type": "body"
+       },
+       {
+          "tajik": "нохун",
+          "english": "nail",
+          "type": "body"
+       },
+       {
+          "tajik": "риш",
+          "english": "beard",
+          "type": "body"
+       },
+       {
+          "tajik": "хун",
+          "english": "blood",
+          "type": "body"
+       },
+       {
+          "tajik": "бадан",
+          "english": "body",
+          "type": "body"
+       },
+       {
+          "tajik": "балки",
+          "english": "however",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "агарчи",
+          "english": "though",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "ва",
+          "english": "and",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "ё",
+          "english": "or",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "аммо",
+          "english": "but",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "агар",
+          "english": "if",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "барои",
+          "english": "for",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "сад",
+          "english": "one hundred",
+          "type": "number"
+       },
+       {
+          "tajik": "саду чил",
+          "english": "one hundred forty",
+          "type": "number"
+       },
+       {
+          "tajik": "дусад",
+          "english": "two hundred",
+          "type": "number"
+       },
+       {
+          "tajik": "дусаду панҷ",
+          "english": "two hundred and five",
+          "type": "number"
+       },
+       {
+          "tajik": "сифр",
+          "english": "zero",
+          "type": "number"
+       },
+       {
+          "tajik": "ҳазор",
+          "english": "one thousand",
+          "type": "number"
+       },
+       {
+          "tajik": "ду ҳазор",
+          "english": "two thousand",
+          "type": "number"
+       },
+       {
+          "tajik": "миллион",
+          "english": "million",
+          "type": "number"
+       },
+       {
+          "tajik": "миллиярд",
+          "english": "billion",
+          "type": "number"
+       },
+       {
+          "tajik": "дада",
+          "english": "father",
+          "type": "people"
+       },
+       {
+          "tajik": "оча",
+          "english": "mother",
+          "type": "people"
+       },
+       {
+          "tajik": "хола",
+          "english": "aunt (maternal side)",
+          "type": "people"
+       },
+       {
+          "tajik": "амма",
+          "english": "aunt (paternal side)",
+          "type": "people"
+       },
+       {
+          "tajik": "бародар",
+          "english": "brother",
+          "type": "people"
+       },
+       {
+          "tajik": "кӯдак",
+          "english": "child",
+          "type": "people"
+       },
+       {
+          "tajik": "шавҳар",
+          "english": "husband",
+          "type": "people"
+       },
+       {
+          "tajik": "тағо",
+          "english": "uncle (maternal side)",
+          "type": "people"
+       },
+       {
+          "tajik": "зан",
+          "english": "wife",
+          "type": "people"
+       },
+       {
+          "tajik": "ука",
+          "english": "younger brother",
+          "type": "people"
+       },
+       {
+          "tajik": "набера",
+          "english": "grandchild",
+          "type": "people"
+       },
+       {
+          "tajik": "абера",
+          "english": "great grandchild",
+          "type": "people"
+       },
+       {
+          "tajik": "бобокалон",
+          "english": "great grandfather",
+          "type": "people"
+       },
+       {
+          "tajik": "бибикалон",
+          "english": "great grandmother",
+          "type": "people"
+       },
+       {
+          "tajik": "муаллим, муаллима",
+          "english": "teacher (male, female)",
+          "type": "people"
+       },
+       {
+          "tajik": "амак",
+          "english": "uncle",
+          "type": "people"
+       },
+       {
+          "tajik": "аз",
+          "english": "from",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "ба",
+          "english": "to",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "соат",
+          "english": "hour",
+          "type": "time&date"
+       },
+       {
+          "tajik": "ҳафта",
+          "english": "week",
+          "type": "time&date"
+       },
+       {
+          "tajik": "дақиқа",
+          "english": "minute",
+          "type": "time&date"
+       },
+       {
+          "tajik": "моҳ",
+          "english": "month",
+          "type": "time&date"
+       },
+       {
+          "tajik": "сония",
+          "english": "second",
+          "type": "time&date"
+       },
+       {
+          "tajik": "сол",
+          "english": "year",
+          "type": "time&date"
+       },
+       {
+          "tajik": "шаб",
+          "english": "night",
+          "type": "time&date"
+       },
+       {
+          "tajik": "вақт",
+          "english": "time",
+          "type": "time&date"
+       }
+    ],
+    "7": [
+       {
+          "tajik": "хӯрдан",
+          "english": "to eat",
+          "type": "verb"
+       },
+       {
+          "tajik": "гуфтан",
+          "english": "to say",
+          "type": "verb"
+       },
+       {
+          "tajik": "дидан",
+          "english": "to see",
+          "type": "verb"
+       },
+       {
+          "tajik": "нӯшидан",
+          "english": "to drink",
+          "type": "verb"
+       },
+       {
+          "tajik": "ҳӯрдан",
+          "english": "to eat",
+          "type": "verb"
+       },
+       {
+          "tajik": "рафтан",
+          "english": "to go",
+          "type": "verb"
+       },
+       {
+          "tajik": "хондан",
+          "english": "to read",
+          "type": "verb"
+       },
+       {
+          "tajik": "омадан",
+          "english": "to arrive",
+          "type": "verb"
+       },
+       {
+          "tajik": "офтоб",
+          "english": "sun",
+          "type": "weather"
+       },
+       {
+          "tajik": "борон",
+          "english": "rain",
+          "type": "weather"
+       },
+       {
+          "tajik": "барф",
+          "english": "snow",
+          "type": "weather"
+       },
+       {
+          "tajik": "абр",
+          "english": "cloud",
+          "type": "weather"
+       },
+       {
+          "tajik": "беабр",
+          "english": "cloudless",
+          "type": "weather"
+       },
+       {
+          "tajik": "тӯфон",
+          "english": "storm",
+          "type": "weather"
+       },
+       {
+          "tajik": "шамол",
+          "english": "wind",
+          "type": "weather"
+       },
+       {
+          "tajik": "жола",
+          "english": "hail",
+          "type": "weather"
+       },
+       {
+          "tajik": "нек",
+          "english": "good",
+          "type": "adjective"
+       },
+       {
+          "tajik": "азиз",
+          "english": "dear",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хушбахт",
+          "english": "happy",
+          "type": "adjective"
+       },
+       {
+          "tajik": "вазнин",
+          "english": "heavy",
+          "type": "adjective"
+       },
+       {
+          "tajik": "сабук",
+          "english": "light",
+          "type": "adjective"
+       },
+       {
+          "tajik": "паст",
+          "english": "low",
+          "type": "adjective"
+       },
+       {
+          "tajik": "кӯтоҳ",
+          "english": "short",
+          "type": "adjective"
+       },
+       {
+          "tajik": "дуруст",
+          "english": "correct",
+          "type": "adjective"
+       },
+       {
+          "tajik": "баланд",
+          "english": "high",
+          "type": "adjective"
+       },
+       {
+          "tajik": "гузашта",
+          "english": "past",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ҳозира",
+          "english": "present",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хом",
+          "english": "raw",
+          "type": "adjective"
+       },
+       {
+          "tajik": "тез",
+          "english": "sharp, fast, spicy",
+          "type": "adjective"
+       },
+       {
+          "tajik": "турш",
+          "english": "sour",
+          "type": "adjective"
+       },
+       {
+          "tajik": "рост",
+          "english": "straight",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бақувват",
+          "english": "strong",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ғафс",
+          "english": "thick",
+          "type": "adjective"
+       },
+       {
+          "tajik": "калид",
+          "english": "key",
+          "type": "home"
+       },
+       {
+          "tajik": "табақ",
+          "english": "plate",
+          "type": "home"
+       },
+       {
+          "tajik": "корпача",
+          "english": "sitting mat",
+          "type": "home"
+       },
+       {
+          "tajik": "қошуқча, қошуқи майда",
+          "english": "teaspoon",
+          "type": "home"
+       },
+       {
+          "tajik": "кат",
+          "english": "bed",
+          "type": "home"
+       },
+       {
+          "tajik": "якдон",
+          "english": "refrigerator",
+          "type": "home"
+       },
+       {
+          "tajik": "телефон",
+          "english": "telephone",
+          "type": "home"
+       },
+       {
+          "tajik": "телевизор",
+          "english": "television",
+          "type": "home"
+       },
+       {
+          "tajik": "курсӣ",
+          "english": "arm chair",
+          "type": "home"
+       },
+       {
+          "tajik": "ҷорӯб",
+          "english": "broom",
+          "type": "home"
+       },
+       {
+          "tajik": "дарахт",
+          "english": "tree",
+          "type": "nature"
+       },
+       {
+          "tajik": "алов",
+          "english": "fire",
+          "type": "nature"
+       },
+       {
+          "tajik": "лой",
+          "english": "mud",
+          "type": "nature"
+       },
+       {
+          "tajik": "дарё",
+          "english": "river",
+          "type": "nature"
+       },
+       {
+          "tajik": "кул",
+          "english": "lake",
+          "type": "nature"
+       },
+       {
+          "tajik": "кӯҳ",
+          "english": "mountain",
+          "type": "nature"
+       },
+       {
+          "tajik": "табиат",
+          "english": "nature",
+          "type": "nature"
+       },
+       {
+          "tajik": "шаршара",
+          "english": "waterfall",
+          "type": "nature"
+       },
+       {
+          "tajik": "теппа",
+          "english": "hill",
+          "type": "nature"
+       },
+       {
+          "tajik": "чашма",
+          "english": "spring",
+          "type": "nature"
+       }
+    ],
+    "8": [
+       {
+          "tajik": "чӣ",
+          "english": "what",
+          "type": "random"
+       },
+       {
+          "tajik": "кӣ",
+          "english": "who",
+          "type": "random"
+       },
+       {
+          "tajik": "ки",
+          "english": "that",
+          "type": "random"
+       },
+       {
+          "tajik": "кадом",
+          "english": "which",
+          "type": "random"
+       },
+       {
+          "tajik": "чанд",
+          "english": "how many",
+          "type": "random"
+       },
+       {
+          "tajik": "чӣ қадар",
+          "english": "how much",
+          "type": "random"
+       },
+       {
+          "tajik": "будан",
+          "english": "to be",
+          "type": "verb"
+       },
+       {
+          "tajik": "тавонистан",
+          "english": "to be able",
+          "type": "verb"
+       },
+       {
+          "tajik": "фаромӯш кардан",
+          "english": "to forget",
+          "type": "verb"
+       },
+       {
+          "tajik": "додан",
+          "english": "to give",
+          "type": "verb"
+       },
+       {
+          "tajik": "доштан",
+          "english": "to have",
+          "type": "verb"
+       },
+       {
+          "tajik": "давидан",
+          "english": "to run",
+          "type": "verb"
+       },
+       {
+          "tajik": "дод задан",
+          "english": "to shout",
+          "type": "verb"
+       },
+       {
+          "tajik": "нишон додан",
+          "english": "to show",
+          "type": "verb"
+       },
+       {
+          "tajik": "нишастан",
+          "english": "to sit",
+          "type": "verb"
+       },
+       {
+          "tajik": "гап задан",
+          "english": "to speak",
+          "type": "verb"
+       },
+       {
+          "tajik": "рӯфтан",
+          "english": "to sweep",
+          "type": "verb"
+       },
+       {
+          "tajik": "кор кардан",
+          "english": "to work",
+          "type": "verb"
+       },
+       {
+          "tajik": "мӯрча",
+          "english": "ant",
+          "type": "animal"
+       },
+       {
+          "tajik": "гурба",
+          "english": "cat",
+          "type": "animal"
+       },
+       {
+          "tajik": "хурус",
+          "english": "rooster",
+          "type": "animal"
+       },
+       {
+          "tajik": "мурғобӣ",
+          "english": "duck",
+          "type": "animal"
+       },
+       {
+          "tajik": "калламуш",
+          "english": "rat",
+          "type": "animal"
+       },
+       {
+          "tajik": "ғоз",
+          "english": "goose",
+          "type": "animal"
+       },
+       {
+          "tajik": "уқоб",
+          "english": "eagle",
+          "type": "animal"
+       },
+       {
+          "tajik": "рӯбоҳ",
+          "english": "fox",
+          "type": "animal"
+       },
+       {
+          "tajik": "кафтар",
+          "english": "pigeon",
+          "type": "animal"
+       },
+       {
+          "tajik": "кирм",
+          "english": "worm",
+          "type": "animal"
+       },
+       {
+          "tajik": "шутур",
+          "english": "camel",
+          "type": "animal"
+       },
+       {
+          "tajik": "гург",
+          "english": "wolf",
+          "type": "animal"
+       },
+       {
+          "tajik": "лаб",
+          "english": "lip",
+          "type": "body"
+       },
+       {
+          "tajik": "гардан",
+          "english": "neck",
+          "type": "body"
+       },
+       {
+          "tajik": "шикам",
+          "english": "stomach, tummy",
+          "type": "body"
+       },
+       {
+          "tajik": "зону",
+          "english": "knee",
+          "type": "body"
+       },
+       {
+          "tajik": "шуш",
+          "english": "lung",
+          "type": "body"
+       },
+       {
+          "tajik": "мушак",
+          "english": "muscle",
+          "type": "body"
+       },
+       {
+          "tajik": "китф",
+          "english": "shoulder",
+          "type": "body"
+       },
+       {
+          "tajik": "гӯшти мурғ",
+          "english": "chicken",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "гӯшти гов",
+          "english": "beef",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "маска",
+          "english": "butter",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "гелос",
+          "english": "cherry",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "мева",
+          "english": "fruit",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "сир",
+          "english": "garlic",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "асал",
+          "english": "honey",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "ях",
+          "english": "ice",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "яхмос",
+          "english": "ice-cream",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "мураббо",
+          "english": "jam",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "гӯшти гӯсфанд",
+          "english": "mutton",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "пиёз",
+          "english": "onion",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "афлесун",
+          "english": "orange",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "шафтолу",
+          "english": "peach",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "салат",
+          "english": "salad",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "шӯрбо",
+          "english": "soup",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "помедор",
+          "english": "tomato",
+          "type": "food&drink"
+       }
+    ],
+    "9": [
+       {
+          "tajik": "кӯдакон",
+          "english": "children",
+          "type": "people"
+       },
+       {
+          "tajik": "келин",
+          "english": "daughter-in-law",
+          "type": "people"
+       },
+       {
+          "tajik": "ҷиян",
+          "english": "niece, nephew",
+          "type": "people"
+       },
+       {
+          "tajik": "домод",
+          "english": "son-in-law",
+          "type": "people"
+       },
+       {
+          "tajik": "одам",
+          "english": "person",
+          "type": "people"
+       },
+       {
+          "tajik": "амакбача",
+          "english": "cousin",
+          "type": "people"
+       },
+       {
+          "tajik": "аммабача",
+          "english": "cousin",
+          "type": "people"
+       },
+       {
+          "tajik": "подшоҳ",
+          "english": "king",
+          "type": "people"
+       },
+       {
+          "tajik": "расидан",
+          "english": "to arrive",
+          "type": "verb"
+       },
+       {
+          "tajik": "пурсидан",
+          "english": "to ask",
+          "type": "verb"
+       },
+       {
+          "tajik": "тарсидан",
+          "english": "to be afraid",
+          "type": "verb"
+       },
+       {
+          "tajik": "сар кардан",
+          "english": "to begin",
+          "type": "verb"
+       },
+       {
+          "tajik": "шунидан",
+          "english": "to hear",
+          "type": "verb"
+       },
+       {
+          "tajik": "дӯст доштан",
+          "english": "to love",
+          "type": "verb"
+       },
+       {
+          "tajik": "кушодан",
+          "english": "to open",
+          "type": "verb"
+       },
+       {
+          "tajik": "фурӯхтан",
+          "english": "to sell",
+          "type": "verb"
+       },
+       {
+          "tajik": "тарҷума кардан",
+          "english": "to translate",
+          "type": "verb"
+       },
+       {
+          "tajik": "фаҳмидан",
+          "english": "to understand",
+          "type": "verb"
+       },
+       {
+          "tajik": "кардан",
+          "english": "to do",
+          "type": "verb"
+       },
+       {
+          "tajik": "бозӣ кардан",
+          "english": "to play",
+          "type": "verb"
+       },
+       {
+          "tajik": "гирифтан",
+          "english": "to take",
+          "type": "verb"
+       },
+       {
+          "tajik": "хостан",
+          "english": "to want",
+          "type": "verb"
+       },
+       {
+          "tajik": "гӯш кардан",
+          "english": "to listen",
+          "type": "verb"
+       },
+       {
+          "tajik": "кушода",
+          "english": "open",
+          "type": "adjective"
+       },
+       {
+          "tajik": "мулоим",
+          "english": "soft",
+          "type": "adjective"
+       },
+       {
+          "tajik": "баланд",
+          "english": "loud",
+          "type": "adjective"
+       },
+       {
+          "tajik": "намнок",
+          "english": "humid",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хароб",
+          "english": "thin",
+          "type": "adjective"
+       },
+       {
+          "tajik": "тар",
+          "english": "wet",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ҷавон",
+          "english": "young",
+          "type": "adjective"
+       },
+       {
+          "tajik": "оддӣ",
+          "english": "ordinary",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ғамгин",
+          "english": "sad",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бемаза",
+          "english": "tasteless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "монда",
+          "english": "tired, exhausted",
+          "type": "adjective"
+       },
+       {
+          "tajik": "равшан",
+          "english": "light, bright",
+          "type": "adjective"
+       },
+       {
+          "tajik": "шӯр",
+          "english": "salty",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бечора",
+          "english": "unfortunate",
+          "type": "adjective"
+       },
+       {
+          "tajik": "кал",
+          "english": "bald",
+          "type": "adjective"
+       },
+       {
+          "tajik": "кӯр",
+          "english": "blind",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хориҷӣ",
+          "english": "foreign",
+          "type": "adjective"
+       },
+       {
+          "tajik": "озод",
+          "english": "free (unrestricted)",
+          "type": "adjective"
+       },
+       {
+          "tajik": "васеъ",
+          "english": "wide",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хира",
+          "english": "dim",
+          "type": "adjective"
+       }
+    ],
+    "10": [
+       {
+          "tajik": "курта",
+          "english": "dress",
+          "type": "clothing"
+       },
+       {
+          "tajik": "шим",
+          "english": "trousers",
+          "type": "clothing"
+       },
+       {
+          "tajik": "мӯза",
+          "english": "boots (long)",
+          "type": "clothing"
+       },
+       {
+          "tajik": "либос",
+          "english": "clothes",
+          "type": "clothing"
+       },
+       {
+          "tajik": "рӯймол",
+          "english": "scarf",
+          "type": "clothing"
+       },
+       {
+          "tajik": "пайпок, ҷуроб",
+          "english": "socks",
+          "type": "clothing"
+       },
+       {
+          "tajik": "шортик",
+          "english": "shorts",
+          "type": "clothing"
+       },
+       {
+          "tajik": "пойафзол",
+          "english": "shoes",
+          "type": "clothing"
+       },
+       {
+          "tajik": "дастпӯшак",
+          "english": "gloves",
+          "type": "clothing"
+       },
+       {
+          "tajik": "кулоҳ",
+          "english": "hat",
+          "type": "clothing"
+       },
+       {
+          "tajik": "телпак",
+          "english": "hat",
+          "type": "clothing"
+       },
+       {
+          "tajik": "халат",
+          "english": "robe, gown",
+          "type": "clothing"
+       },
+       {
+          "tajik": "тасма",
+          "english": "belt",
+          "type": "clothing"
+       },
+       {
+          "tajik": "бодом",
+          "english": "almond",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "гулкарам",
+          "english": "cauliflower",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "боимҷон",
+          "english": "eggplant",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "равған",
+          "english": "oil",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "макарон",
+          "english": "pasta",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "мавиз",
+          "english": "raisin",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "сметана",
+          "english": "sour cream",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "сабзавот",
+          "english": "vegetables",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "чормағз",
+          "english": "walnut",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "қолин",
+          "english": "carpet",
+          "type": "home"
+       },
+       {
+          "tajik": "диван",
+          "english": "couch, sofa",
+          "type": "home"
+       },
+       {
+          "tajik": "стакан",
+          "english": "glass",
+          "type": "home"
+       },
+       {
+          "tajik": "оина",
+          "english": "mirror",
+          "type": "home"
+       },
+       {
+          "tajik": "пул",
+          "english": "money",
+          "type": "home"
+       },
+       {
+          "tajik": "дег",
+          "english": "pan (large Tajik one)",
+          "type": "home"
+       },
+       {
+          "tajik": "радио",
+          "english": "radio",
+          "type": "home"
+       },
+       {
+          "tajik": "ҷойпӯш",
+          "english": "sheet",
+          "type": "home"
+       },
+       {
+          "tajik": "дастархон",
+          "english": "tablecloth",
+          "type": "home"
+       },
+       {
+          "tajik": "чойник",
+          "english": "teapot",
+          "type": "home"
+       },
+       {
+          "tajik": "девор",
+          "english": "wall",
+          "type": "home"
+       },
+       {
+          "tajik": "тирамоҳ",
+          "english": "autumn",
+          "type": "time&date"
+       },
+       {
+          "tajik": "баҳор",
+          "english": "spring",
+          "type": "time&date"
+       },
+       {
+          "tajik": "тобистон",
+          "english": "summer",
+          "type": "time&date"
+       },
+       {
+          "tajik": "зимистон",
+          "english": "winter",
+          "type": "time&date"
+       },
+       {
+          "tajik": "пагоҳӣ",
+          "english": "morning",
+          "type": "time&date"
+       },
+       {
+          "tajik": "фасл",
+          "english": "season",
+          "type": "time&date"
+       },
+       {
+          "tajik": "қишлоқ, деҳа",
+          "english": "village",
+          "type": "travel"
+       },
+       {
+          "tajik": "пойтахт",
+          "english": "capital city",
+          "type": "travel"
+       },
+       {
+          "tajik": "шаҳр",
+          "english": "city",
+          "type": "travel"
+       },
+       {
+          "tajik": "сафар, саёҳат",
+          "english": "trip, journey",
+          "type": "travel"
+       },
+       {
+          "tajik": "роҳи оҳан",
+          "english": "railroad",
+          "type": "travel"
+       },
+       {
+          "tajik": "билет",
+          "english": "ticket",
+          "type": "travel"
+       },
+       {
+          "tajik": "виза",
+          "english": "visa",
+          "type": "travel"
+       }
+    ],
+    "11": [
+       {
+          "tajik": "харидан",
+          "english": "to buy",
+          "type": "verb"
+       },
+       {
+          "tajik": "ҷеғ задан",
+          "english": "to call",
+          "type": "verb"
+       },
+       {
+          "tajik": "гиря кардан",
+          "english": "to cry",
+          "type": "verb"
+       },
+       {
+          "tajik": "афтодан",
+          "english": "to fall",
+          "type": "verb"
+       },
+       {
+          "tajik": "хоб рафтан",
+          "english": "to go to sleep",
+          "type": "verb"
+       },
+       {
+          "tajik": "ёрдам кардан",
+          "english": "to help",
+          "type": "verb"
+       },
+       {
+          "tajik": "донистан",
+          "english": "to know",
+          "type": "verb"
+       },
+       {
+          "tajik": "хандидан",
+          "english": "to laugh",
+          "type": "verb"
+       },
+       {
+          "tajik": "зиндагӣ кардан",
+          "english": "to live",
+          "type": "verb"
+       },
+       {
+          "tajik": "ҷустан, кофтан",
+          "english": "to look for",
+          "type": "verb"
+       },
+       {
+          "tajik": "талаффуз кардан",
+          "english": "to pronounce",
+          "type": "verb"
+       },
+       {
+          "tajik": "такрор кардан",
+          "english": "to repeat",
+          "type": "verb"
+       },
+       {
+          "tajik": "буй кардан",
+          "english": "to smell",
+          "type": "verb"
+       },
+       {
+          "tajik": "истодан",
+          "english": "to stay",
+          "type": "verb"
+       },
+       {
+          "tajik": "чӣ хел",
+          "english": "how",
+          "type": "adverb"
+       },
+       {
+          "tajik": "алоҳида",
+          "english": "separately",
+          "type": "adverb"
+       },
+       {
+          "tajik": "одатан",
+          "english": "usually",
+          "type": "adverb"
+       },
+       {
+          "tajik": "ҳам",
+          "english": "also",
+          "type": "adverb"
+       },
+       {
+          "tajik": "баъзан",
+          "english": "sometimes",
+          "type": "adverb"
+       },
+       {
+          "tajik": "тақрибан",
+          "english": "approximately",
+          "type": "adverb"
+       },
+       {
+          "tajik": "ҳар куҷо",
+          "english": "everywhere",
+          "type": "adverb"
+       },
+       {
+          "tajik": "ҳеҷ гоҳ",
+          "english": "never",
+          "type": "adverb"
+       },
+       {
+          "tajik": "ҳеҷ чиз",
+          "english": "nothing",
+          "type": "adverb"
+       },
+       {
+          "tajik": "ҳеҷ куҷо",
+          "english": "nowhere",
+          "type": "adverb"
+       },
+       {
+          "tajik": "тут",
+          "english": "mulberry",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "хурмо",
+          "english": "persimmon",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "писта",
+          "english": "pistachio",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "чукрӣ",
+          "english": "rhubarb",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "лаблабу",
+          "english": "beetroot",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "угро",
+          "english": "noodles",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "каду",
+          "english": "pumpkin",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "шалғамча",
+          "english": "radish",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "ананас",
+          "english": "pineapple",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "олу",
+          "english": "plum",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "малина",
+          "english": "raspberry",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "анор",
+          "english": "pomegranate",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "хобхона",
+          "english": "bedroom",
+          "type": "home"
+       },
+       {
+          "tajik": "кӯрпа",
+          "english": "blanket",
+          "type": "home"
+       },
+       {
+          "tajik": "ошхона",
+          "english": "kitchen",
+          "type": "home"
+       },
+       {
+          "tajik": "чароғ",
+          "english": "light",
+          "type": "home"
+       },
+       {
+          "tajik": "шампун",
+          "english": "shampoo",
+          "type": "home"
+       },
+       {
+          "tajik": "собун",
+          "english": "soap",
+          "type": "home"
+       },
+       {
+          "tajik": "сатил",
+          "english": "bucket",
+          "type": "home"
+       },
+       {
+          "tajik": "гулдон",
+          "english": "vase",
+          "type": "home"
+       },
+       {
+          "tajik": "сачок",
+          "english": "towel",
+          "type": "home"
+       },
+       {
+          "tajik": "ҳоҷатхона, ваннахона",
+          "english": "bathroom",
+          "type": "home"
+       },
+       {
+          "tajik": "ванна",
+          "english": "bathtub",
+          "type": "home"
+       },
+       {
+          "tajik": "парда",
+          "english": "curtain",
+          "type": "home"
+       },
+       {
+          "tajik": "мебел",
+          "english": "furniture",
+          "type": "home"
+       },
+       {
+          "tajik": "дарвоза",
+          "english": "gate",
+          "type": "home"
+       },
+       {
+          "tajik": "болиш",
+          "english": "pillow",
+          "type": "home"
+       },
+       {
+          "tajik": "берун",
+          "english": "outside",
+          "type": "place"
+       }
+    ],
+    "12": [
+       {
+          "tajik": "банк",
+          "english": "bank",
+          "type": "place"
+       },
+       {
+          "tajik": "касалхона",
+          "english": "hospital",
+          "type": "place"
+       },
+       {
+          "tajik": "меҳмонхона",
+          "english": "hotel",
+          "type": "place"
+       },
+       {
+          "tajik": "китобхона",
+          "english": "library",
+          "type": "place"
+       },
+       {
+          "tajik": "почта",
+          "english": "post office",
+          "type": "place"
+       },
+       {
+          "tajik": "университет",
+          "english": "university",
+          "type": "place"
+       },
+       {
+          "tajik": "мағозаи китоб",
+          "english": "bookshop",
+          "type": "place"
+       },
+       {
+          "tajik": "боғи ботаникӣ",
+          "english": "botanical garden",
+          "type": "place"
+       },
+       {
+          "tajik": "кинотеатр",
+          "english": "cinema",
+          "type": "place"
+       },
+       {
+          "tajik": "дар",
+          "english": "in",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "бо",
+          "english": "with",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "бе",
+          "english": "without",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "боло",
+          "english": "above",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "пеш",
+          "english": "before",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "кафо",
+          "english": "behind",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "поён",
+          "english": "below",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "дарун",
+          "english": "inside",
+          "type": "conjunctions and prepositions"
+       },
+       {
+          "tajik": "ҷавоб додан",
+          "english": "to answer",
+          "type": "verb"
+       },
+       {
+          "tajik": "шудан",
+          "english": "to become",
+          "type": "verb"
+       },
+       {
+          "tajik": "овардан",
+          "english": "to bring",
+          "type": "verb"
+       },
+       {
+          "tajik": "иваз кардан",
+          "english": "to change",
+          "type": "verb"
+       },
+       {
+          "tajik": "пухтан",
+          "english": "to cook",
+          "type": "verb"
+       },
+       {
+          "tajik": "шумурдан",
+          "english": "to count",
+          "type": "verb"
+       },
+       {
+          "tajik": "баромадан",
+          "english": "to go out",
+          "type": "verb"
+       },
+       {
+          "tajik": "куштан",
+          "english": "to kill",
+          "type": "verb"
+       },
+       {
+          "tajik": "шинохтан",
+          "english": "to recognize",
+          "type": "verb"
+       },
+       {
+          "tajik": "дам гирифтан",
+          "english": "to rest, to take a break",
+          "type": "verb"
+       },
+       {
+          "tajik": "табассум кардан",
+          "english": "to smile",
+          "type": "verb"
+       },
+       {
+          "tajik": "омӯхтан",
+          "english": "to study",
+          "type": "verb"
+       },
+       {
+          "tajik": "шустан",
+          "english": "to wash",
+          "type": "verb"
+       },
+       {
+          "tajik": "даромадан",
+          "english": "to come in",
+          "type": "verb"
+       },
+       {
+          "tajik": "партофтан",
+          "english": "to throw",
+          "type": "verb"
+       },
+       {
+          "tajik": "ёфтан",
+          "english": "to find",
+          "type": "verb"
+       },
+       {
+          "tajik": "савол",
+          "english": "question",
+          "type": "language"
+       },
+       {
+          "tajik": "калима",
+          "english": "word",
+          "type": "language"
+       },
+       {
+          "tajik": "ҷавоб",
+          "english": "answer",
+          "type": "language"
+       },
+       {
+          "tajik": "забон",
+          "english": "language",
+          "type": "language"
+       },
+       {
+          "tajik": "исм",
+          "english": "noun",
+          "type": "language"
+       },
+       {
+          "tajik": "ҷумла",
+          "english": "sentence",
+          "type": "language"
+       },
+       {
+          "tajik": "фел",
+          "english": "verb",
+          "type": "language"
+       },
+       {
+          "tajik": "задан",
+          "english": "to beat",
+          "type": "verb"
+       },
+       {
+          "tajik": "шикастан",
+          "english": "to break",
+          "type": "verb"
+       },
+       {
+          "tajik": "интихоб кардан",
+          "english": "to choose",
+          "type": "verb"
+       },
+       {
+          "tajik": "ислоҳ кардан",
+          "english": "to correct",
+          "type": "verb"
+       },
+       {
+          "tajik": "ҳисоб кардан",
+          "english": "to count",
+          "type": "verb"
+       },
+       {
+          "tajik": "хоб дидан",
+          "english": "to dream",
+          "type": "verb"
+       },
+       {
+          "tajik": "пинҳон кардан",
+          "english": "to hide",
+          "type": "verb"
+       },
+       {
+          "tajik": "даъват кардан",
+          "english": "to invite",
+          "type": "verb"
+       },
+       {
+          "tajik": "хато кардан",
+          "english": "to make a mistake",
+          "type": "verb"
+       },
+       {
+          "tajik": "ҷазо додан",
+          "english": "to punish",
+          "type": "verb"
+       },
+       {
+          "tajik": "фикр кардан",
+          "english": "to think",
+          "type": "verb"
+       },
+       {
+          "tajik": "бедор кардан",
+          "english": "to wake up",
+          "type": "verb"
+       }
+    ],
+    "13": [
+       {
+          "tajik": "махсус",
+          "english": "special",
+          "type": "adjective"
+       },
+       {
+          "tajik": "монанд",
+          "english": "similar",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ҳамвор",
+          "english": "smooth, flat",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пурзӯр",
+          "english": "strong",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пухта",
+          "english": "cooked",
+          "type": "adjective"
+       },
+       {
+          "tajik": "охирин",
+          "english": "last",
+          "type": "adjective"
+       },
+       {
+          "tajik": "аралаш",
+          "english": "mixed up",
+          "type": "adjective"
+       },
+       {
+          "tajik": "серравған",
+          "english": "oily",
+          "type": "adjective"
+       },
+       {
+          "tajik": "кушод",
+          "english": "open",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ҳама",
+          "english": "all",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хатарнок",
+          "english": "dangerous",
+          "type": "adjective"
+       },
+       {
+          "tajik": "меҳрӯбон",
+          "english": "kind",
+          "type": "adjective"
+       },
+       {
+          "tajik": "қадим",
+          "english": "ancient",
+          "type": "adjective"
+       },
+       {
+          "tajik": "марказӣ",
+          "english": "central",
+          "type": "adjective"
+       },
+       {
+          "tajik": "зинда",
+          "english": "alive",
+          "type": "adjective"
+       },
+       {
+          "tajik": "мурда",
+          "english": "dead",
+          "type": "adjective"
+       },
+       {
+          "tajik": "институт",
+          "english": "college, institute",
+          "type": "place"
+       },
+       {
+          "tajik": "сирк",
+          "english": "circus",
+          "type": "place"
+       },
+       {
+          "tajik": "замин ",
+          "english": "earth",
+          "type": "place"
+       },
+       {
+          "tajik": "завод",
+          "english": "factory",
+          "type": "place"
+       },
+       {
+          "tajik": "фирма",
+          "english": "firm",
+          "type": "place"
+       },
+       {
+          "tajik": "масҷид",
+          "english": "mosque",
+          "type": "place"
+       },
+       {
+          "tajik": "дорухона",
+          "english": "pharmacy",
+          "type": "place"
+       },
+       {
+          "tajik": "тарабхона",
+          "english": "restaurant",
+          "type": "place"
+       },
+       {
+          "tajik": "театр",
+          "english": "theatre",
+          "type": "place"
+       },
+       {
+          "tajik": "боғи ҳайвонот",
+          "english": "zoo",
+          "type": "place"
+       },
+       {
+          "tajik": "маслиҳат додан",
+          "english": "to advise",
+          "type": "verb"
+       },
+       {
+          "tajik": "офаридан",
+          "english": "to create",
+          "type": "verb"
+       },
+       {
+          "tajik": "талаб кардан",
+          "english": "to demand",
+          "type": "verb"
+       },
+       {
+          "tajik": "фармон додан",
+          "english": "to order",
+          "type": "verb"
+       },
+       {
+          "tajik": "тоза кардан",
+          "english": "to clean",
+          "type": "verb"
+       },
+       {
+          "tajik": "дурӯғ гуфтан",
+          "english": "to lie",
+          "type": "verb"
+       },
+       {
+          "tajik": "шинос шудан",
+          "english": "to meet, make an acquaintance",
+          "type": "verb"
+       },
+       {
+          "tajik": "ҷустан",
+          "english": "to seek",
+          "type": "verb"
+       },
+       {
+          "tajik": "дуздидан",
+          "english": "to steal",
+          "type": "verb"
+       },
+       {
+          "tajik": "чашидан",
+          "english": "to taste",
+          "type": "verb"
+       },
+       {
+          "tajik": "бедор шудан",
+          "english": "to wake up",
+          "type": "verb"
+       },
+       {
+          "tajik": "тамошо кадран",
+          "english": "to watch",
+          "type": "verb"
+       },
+       {
+          "tajik": "навиштан",
+          "english": "to write",
+          "type": "verb"
+       },
+       {
+          "tajik": "пешона",
+          "english": "forehead",
+          "type": "body"
+       },
+       {
+          "tajik": "мӯйлаб",
+          "english": "mustache",
+          "type": "body"
+       },
+       {
+          "tajik": "пошна",
+          "english": "heal",
+          "type": "body"
+       },
+       {
+          "tajik": "пӯст",
+          "english": "skin",
+          "type": "body"
+       },
+       {
+          "tajik": "сутунмӯҳра",
+          "english": "spine",
+          "type": "body"
+       },
+       {
+          "tajik": "гулӯ",
+          "english": "throat",
+          "type": "body"
+       },
+       {
+          "tajik": "устухон",
+          "english": "bone",
+          "type": "body"
+       },
+       {
+          "tajik": "ноф",
+          "english": "belly button",
+          "type": "body"
+       },
+       {
+          "tajik": "кабурға",
+          "english": "rib",
+          "type": "body"
+       },
+       {
+          "tajik": "миён",
+          "english": "waist",
+          "type": "body"
+       },
+       {
+          "tajik": "ҷоғ",
+          "english": "jaw",
+          "type": "body"
+       }
+    ],
+    "14": [
+       {
+          "tajik": "дойра",
+          "english": "circle",
+          "type": "math"
+       },
+       {
+          "tajik": "чоркунҷа",
+          "english": "square",
+          "type": "math"
+       },
+       {
+          "tajik": "секунҷа",
+          "english": "triangle",
+          "type": "math"
+       },
+       {
+          "tajik": "росткунҷа",
+          "english": "rectangle",
+          "type": "math"
+       },
+       {
+          "tajik": "марказ",
+          "english": "centre",
+          "type": "math"
+       },
+       {
+          "tajik": "хат",
+          "english": "line",
+          "type": "math"
+       },
+       {
+          "tajik": "борик",
+          "english": "thin (line etc.)",
+          "type": "math"
+       },
+       {
+          "tajik": "кунҷ",
+          "english": "angle",
+          "type": "math"
+       },
+       {
+          "tajik": "дарозӣ",
+          "english": "length",
+          "type": "math"
+       },
+       {
+          "tajik": "вазн",
+          "english": "weight",
+          "type": "math"
+       },
+       {
+          "tajik": "баландӣ",
+          "english": "height",
+          "type": "math"
+       },
+       {
+          "tajik": "чукурӣ",
+          "english": "depth",
+          "type": "math"
+       },
+       {
+          "tajik": "масоҳат",
+          "english": "area",
+          "type": "math"
+       },
+       {
+          "tajik": "дараҷа",
+          "english": "degree",
+          "type": "math"
+       },
+       {
+          "tajik": "миқдор",
+          "english": "quantity",
+          "type": "math"
+       },
+       {
+          "tajik": "ҳачм",
+          "english": "size",
+          "type": "math"
+       },
+       {
+          "tajik": "ришгирак",
+          "english": "razor",
+          "type": "home"
+       },
+       {
+          "tajik": "дастшӯяк",
+          "english": "sink",
+          "type": "home"
+       },
+       {
+          "tajik": "духовка",
+          "english": "stove",
+          "type": "home"
+       },
+       {
+          "tajik": "хамири дандон",
+          "english": "toothpaste",
+          "type": "home"
+       },
+       {
+          "tajik": "мошини ҷомашӯӣ",
+          "english": "washing machine",
+          "type": "home"
+       },
+       {
+          "tajik": "фарш",
+          "english": "floor",
+          "type": "home"
+       },
+       {
+          "tajik": "китобмонак",
+          "english": "bookshelf",
+          "type": "home"
+       },
+       {
+          "tajik": "гилем",
+          "english": "carpet",
+          "type": "home"
+       },
+       {
+          "tajik": "даромадгоҳ",
+          "english": "entry way",
+          "type": "home"
+       },
+       {
+          "tajik": "гугирд",
+          "english": "match",
+          "type": "home"
+       },
+       {
+          "tajik": "фурудгоҳ",
+          "english": "airport",
+          "type": "place"
+       },
+       {
+          "tajik": "калисо",
+          "english": "church",
+          "type": "place"
+       },
+       {
+          "tajik": "сартарошхона",
+          "english": "hair salon",
+          "type": "place"
+       },
+       {
+          "tajik": "ҷой",
+          "english": "place",
+          "type": "place"
+       },
+       {
+          "tajik": "маркази савдо",
+          "english": "shopping centre, mall",
+          "type": "place"
+       },
+       {
+          "tajik": "истгоҳ",
+          "english": "station",
+          "type": "place"
+       },
+       {
+          "tajik": "дунё",
+          "english": "world",
+          "type": "place"
+       },
+       {
+          "tajik": "маркази шаҳр",
+          "english": "city centre",
+          "type": "place"
+       },
+       {
+          "tajik": "қаҳвахона",
+          "english": "coffee shop",
+          "type": "place"
+       },
+       {
+          "tajik": "маҳалла",
+          "english": "neighbourhood",
+          "type": "place"
+       },
+       {
+          "tajik": "тангкуча",
+          "english": "side street, narrow street",
+          "type": "place"
+       },
+       {
+          "tajik": "дача",
+          "english": "summer house",
+          "type": "place"
+       },
+       {
+          "tajik": "ҳавз",
+          "english": "swimming pool",
+          "type": "place"
+       },
+       {
+          "tajik": "банкомат",
+          "english": "ATM",
+          "type": "place"
+       },
+       {
+          "tajik": "нонвойхона",
+          "english": "bakery",
+          "type": "place"
+       },
+       {
+          "tajik": "ҳайкал",
+          "english": "statue",
+          "type": "place"
+       },
+       {
+          "tajik": "ҳафтаи гӯзашта",
+          "english": "last week",
+          "type": "time&date"
+       },
+       {
+          "tajik": "ҳафтаи ояанда",
+          "english": "next week",
+          "type": "time&date"
+       },
+       {
+          "tajik": "гузашта",
+          "english": "past",
+          "type": "time&date"
+       },
+       {
+          "tajik": "ояанда",
+          "english": "future",
+          "type": "time&date"
+       },
+       {
+          "tajik": "ҳозира",
+          "english": "present",
+          "type": "time&date"
+       },
+       {
+          "tajik": "аср",
+          "english": "century",
+          "type": "time&date"
+       },
+       {
+          "tajik": "як сол пеш",
+          "english": "one year ago",
+          "type": "time&date"
+       },
+       {
+          "tajik": "тақвим",
+          "english": "calendar",
+          "type": "time&date"
+       },
+       {
+          "tajik": "бовар кардан",
+          "english": "to believe",
+          "type": "verb"
+       },
+       {
+          "tajik": "пӯшидан",
+          "english": "to close",
+          "type": "verb"
+       },
+       {
+          "tajik": "фуромадан",
+          "english": "to come down",
+          "type": "verb"
+       },
+       {
+          "tajik": "бахшидан",
+          "english": "to forgive",
+          "type": "verb"
+       },
+       {
+          "tajik": "иҷозат додан",
+          "english": "to give permission",
+          "type": "verb"
+       },
+       {
+          "tajik": "умед доштан",
+          "english": "to hope",
+          "type": "verb"
+       },
+       {
+          "tajik": "пул додан",
+          "english": "to pay",
+          "type": "verb"
+       },
+       {
+          "tajik": "рехтан",
+          "english": "to pour",
+          "type": "verb"
+       },
+       {
+          "tajik": "тайёр кардан",
+          "english": "to prepare",
+          "type": "verb"
+       },
+       {
+          "tajik": "баргаштан",
+          "english": "to return",
+          "type": "verb"
+       },
+       {
+          "tajik": "шино кардан",
+          "english": "to swim",
+          "type": "verb"
+       }
+    ],
+    "15": [
+       {
+          "tajik": "ғазабнок",
+          "english": "angry",
+          "type": "adjective"
+       },
+       {
+          "tajik": "зарур",
+          "english": "important",
+          "type": "adjective"
+       },
+       {
+          "tajik": "берунӣ",
+          "english": "exterior",
+          "type": "adjective"
+       },
+       {
+          "tajik": "дарунӣ",
+          "english": "interior",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беранг",
+          "english": "pale",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пӯшида",
+          "english": "closed",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ҳар",
+          "english": "each",
+          "type": "adjective"
+       },
+       {
+          "tajik": "баробар",
+          "english": "equal",
+          "type": "adjective"
+       },
+       {
+          "tajik": "аниқ",
+          "english": "exact",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бесабр",
+          "english": "impatient",
+          "type": "adjective"
+       },
+       {
+          "tajik": "муҳим",
+          "english": "important",
+          "type": "adjective"
+       },
+       {
+          "tajik": "танг",
+          "english": "narrow",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беқувват",
+          "english": "weak",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беабр",
+          "english": "cloudless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "зич",
+          "english": "dense",
+          "type": "adjective"
+       },
+       {
+          "tajik": "гадо",
+          "english": "destitute",
+          "type": "adjective"
+       },
+       {
+          "tajik": "градус",
+          "english": "degree",
+          "type": "geometry"
+       },
+       {
+          "tajik": "сохтан",
+          "english": "to build",
+          "type": "verb"
+       },
+       {
+          "tajik": "тақсим кардан",
+          "english": "to divide",
+          "type": "verb"
+       },
+       {
+          "tajik": "ғарк шудан",
+          "english": "to drown",
+          "type": "verb"
+       },
+       {
+          "tajik": "озод кардан",
+          "english": "to free, to liberate",
+          "type": "verb"
+       },
+       {
+          "tajik": "монда шудан",
+          "english": "to get tired",
+          "type": "verb"
+       },
+       {
+          "tajik": "овехтан",
+          "english": "to hang",
+          "type": "verb"
+       },
+       {
+          "tajik": "машқ кардан",
+          "english": "to practice",
+          "type": "verb"
+       },
+       {
+          "tajik": "дуо кардан",
+          "english": "to pray",
+          "type": "verb"
+       },
+       {
+          "tajik": "абрнок",
+          "english": "cloudy",
+          "type": "weather"
+       },
+       {
+          "tajik": "барқ",
+          "english": "lightning",
+          "type": "weather"
+       },
+       {
+          "tajik": "раъду барқ",
+          "english": "thunder and lightning",
+          "type": "weather"
+       },
+       {
+          "tajik": "обу ҳаво",
+          "english": "weather",
+          "type": "weather"
+       },
+       {
+          "tajik": "туман",
+          "english": "fog",
+          "type": "weather"
+       },
+       {
+          "tajik": "босуръат",
+          "english": "fast, speedy",
+          "type": "adjective"
+       },
+       {
+          "tajik": "аъло",
+          "english": "excellent",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бовафо",
+          "english": "faithful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беақл",
+          "english": "foolish",
+          "type": "adjective"
+       },
+       {
+          "tajik": "асоснок",
+          "english": "grounded",
+          "type": "adjective"
+       },
+       {
+          "tajik": "зарарнок",
+          "english": "harmful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "безарар",
+          "english": "harmless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "даркорӣ",
+          "english": "necessary",
+          "type": "adjective"
+       },
+       {
+          "tajik": "боадаб",
+          "english": "polite",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пухта",
+          "english": "ripe",
+          "type": "adjective"
+       },
+       {
+          "tajik": "боҳунар",
+          "english": "skilled",
+          "type": "adjective"
+       },
+       {
+          "tajik": "боақл",
+          "english": "smart",
+          "type": "adjective"
+       },
+       {
+          "tajik": "аҳмак",
+          "english": "stupid",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бевафо",
+          "english": "unfaithful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беасос",
+          "english": "unfounded",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беҳунар",
+          "english": "unskilled",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беҳуда",
+          "english": "useless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пурсабр",
+          "english": "patient",
+          "type": "adjective"
+       },
+       {
+          "tajik": "боқувват",
+          "english": "powerful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беадаб",
+          "english": "rude",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бехабар",
+          "english": "uninformed",
+          "type": "adjective"
+       }
+    ],
+    "16": [
+       {
+          "tajik": "сангпушт",
+          "english": "tortoise",
+          "type": "animal"
+       },
+       {
+          "tajik": "делфин",
+          "english": "dolphin",
+          "type": "animal"
+       },
+       {
+          "tajik": "кабӯтар",
+          "english": "dove",
+          "type": "animal"
+       },
+       {
+          "tajik": "кивӣ",
+          "english": "kiwi",
+          "type": "animal"
+       },
+       {
+          "tajik": "кабк",
+          "english": "partridge",
+          "type": "animal"
+       },
+       {
+          "tajik": "замбӯри асал",
+          "english": "bee",
+          "type": "animal"
+       },
+       {
+          "tajik": "кайк",
+          "english": "flea",
+          "type": "animal"
+       },
+       {
+          "tajik": "калтакалос",
+          "english": "lizard",
+          "type": "animal"
+       },
+       {
+          "tajik": "акка",
+          "english": "magpie",
+          "type": "animal"
+       },
+       {
+          "tajik": "шутурмурғ",
+          "english": "ostrich",
+          "type": "animal"
+       },
+       {
+          "tajik": "кунҷишк",
+          "english": "sparrow",
+          "type": "animal"
+       },
+       {
+          "tajik": "санҷоб",
+          "english": "squirrel",
+          "type": "animal"
+       },
+       {
+          "tajik": "лаклак",
+          "english": "stork",
+          "type": "animal"
+       },
+       {
+          "tajik": "кит",
+          "english": "whale",
+          "type": "animal"
+       },
+       {
+          "tajik": "ку",
+          "english": "swan",
+          "type": "animal"
+       },
+       {
+          "tajik": "ору",
+          "english": "wasp",
+          "type": "animal"
+       },
+       {
+          "tajik": "тилло",
+          "english": "gold",
+          "type": "building&material"
+       },
+       {
+          "tajik": "нуқра",
+          "english": "silver",
+          "type": "building&material"
+       },
+       {
+          "tajik": "ришт",
+          "english": "brick",
+          "type": "building&material"
+       },
+       {
+          "tajik": "кадам",
+          "english": "step",
+          "type": "building&material"
+       },
+       {
+          "tajik": "ресмон",
+          "english": "string",
+          "type": "building&material"
+       },
+       {
+          "tajik": "сим",
+          "english": "wire",
+          "type": "building&material"
+       },
+       {
+          "tajik": "чуб",
+          "english": "wood",
+          "type": "building&material"
+       },
+       {
+          "tajik": "сутун",
+          "english": "column",
+          "type": "building&material"
+       },
+       {
+          "tajik": "балкон",
+          "english": "balcony",
+          "type": "home"
+       },
+       {
+          "tajik": "газ",
+          "english": "gas, stove",
+          "type": "home"
+       },
+       {
+          "tajik": "айвон",
+          "english": "veranda",
+          "type": "home"
+       },
+       {
+          "tajik": "ҷевон",
+          "english": "dresser",
+          "type": "home"
+       },
+       {
+          "tajik": "банка",
+          "english": "jar",
+          "type": "home"
+       },
+       {
+          "tajik": "қулф",
+          "english": "lock",
+          "type": "home"
+       },
+       {
+          "tajik": "салфедка",
+          "english": "napkin",
+          "type": "home"
+       },
+       {
+          "tajik": "бом",
+          "english": "roof",
+          "type": "home"
+       },
+       {
+          "tajik": "зинапоя",
+          "english": "stairs",
+          "type": "home"
+       },
+       {
+          "tajik": "шакардон",
+          "english": "sugar bowl",
+          "type": "home"
+       },
+       {
+          "tajik": "реша",
+          "english": "root",
+          "type": "nature"
+       },
+       {
+          "tajik": "заминҷунбӣ",
+          "english": "earthquake",
+          "type": "nature"
+       },
+       {
+          "tajik": "арча",
+          "english": "pine tree",
+          "type": "nature"
+       },
+       {
+          "tajik": "ҷӯй",
+          "english": "stream",
+          "type": "nature"
+       },
+       {
+          "tajik": "ҷангал",
+          "english": "forest",
+          "type": "nature"
+       },
+       {
+          "tajik": "дара",
+          "english": "valley",
+          "type": "nature"
+       },
+       {
+          "tajik": "манзара",
+          "english": "scenery",
+          "type": "nature"
+       },
+       {
+          "tajik": "бед",
+          "english": "willow tree",
+          "type": "nature"
+       }
+    ],
+    "17": [
+       {
+          "tajik": "ғарб",
+          "english": "east",
+          "type": "travel"
+       },
+       {
+          "tajik": "шимол",
+          "english": "north",
+          "type": "travel"
+       },
+       {
+          "tajik": "ҷануб",
+          "english": "south",
+          "type": "travel"
+       },
+       {
+          "tajik": "шарқ",
+          "english": "west",
+          "type": "travel"
+       },
+       {
+          "tajik": "ҳар кас",
+          "english": "everyone",
+          "type": "random"
+       },
+       {
+          "tajik": "ҳар чиз",
+          "english": "everything",
+          "type": "random"
+       },
+       {
+          "tajik": "ҳеҷ кас",
+          "english": "nobody",
+          "type": "random"
+       },
+       {
+          "tajik": "миёна",
+          "english": "middle",
+          "type": "random"
+       },
+       {
+          "tajik": "ягон чиз",
+          "english": "anything",
+          "type": "random"
+       },
+       {
+          "tajik": "қисм",
+          "english": "part",
+          "type": "random"
+       },
+       {
+          "tajik": "ягон кас",
+          "english": "someone",
+          "type": "random"
+       },
+       {
+          "tajik": "купрук",
+          "english": "bridge",
+          "type": "travel"
+       },
+       {
+          "tajik": "харита",
+          "english": "map",
+          "type": "travel"
+       },
+       {
+          "tajik": "шиноснома",
+          "english": "passport",
+          "type": "travel"
+       },
+       {
+          "tajik": "ҷазира",
+          "english": "island",
+          "type": "travel"
+       },
+       {
+          "tajik": "узр пурсидан",
+          "english": "to apologize",
+          "type": "verb"
+       },
+       {
+          "tajik": "сӯхтан",
+          "english": "to burn",
+          "type": "verb"
+       },
+       {
+          "tajik": "шикоят кардан",
+          "english": "to complain",
+          "type": "verb"
+       },
+       {
+          "tajik": "афтондан",
+          "english": "to drop",
+          "type": "verb"
+       },
+       {
+          "tajik": "ошиқ шудан",
+          "english": "to fall in love",
+          "type": "verb"
+       },
+       {
+          "tajik": "паридан",
+          "english": "to fly",
+          "type": "verb"
+       },
+       {
+          "tajik": "шикор кардан",
+          "english": "to hunt",
+          "type": "verb"
+       },
+       {
+          "tajik": "тасаввур кардан",
+          "english": "to imagine",
+          "type": "verb"
+       },
+       {
+          "tajik": "аз ёд кардан",
+          "english": "to memorize",
+          "type": "verb"
+       },
+       {
+          "tajik": "мондан",
+          "english": "to put",
+          "type": "verb"
+       },
+       {
+          "tajik": "наҷот додан",
+          "english": "to save",
+          "type": "verb"
+       },
+       {
+          "tajik": "имзо кардан",
+          "english": "to sign",
+          "type": "verb"
+       },
+       {
+          "tajik": "кулфинай",
+          "english": "strawberry",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "лимӯ",
+          "english": "lemon",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "анҷир",
+          "english": "fig",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "биҳӣ",
+          "english": "quince",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "шалғам",
+          "english": "turnip",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "гречка",
+          "english": "buckwheat",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "марминҷон",
+          "english": "blackcurrant",
+          "type": "food&drink"
+       },
+       {
+          "tajik": "чердак",
+          "english": "attic",
+          "type": "home"
+       },
+       {
+          "tajik": "шифт",
+          "english": "ceiling",
+          "type": "home"
+       },
+       {
+          "tajik": "скаворотка",
+          "english": "frying pan",
+          "type": "home"
+       },
+       {
+          "tajik": "намакдон",
+          "english": "salt shaker",
+          "type": "home"
+       },
+       {
+          "tajik": "разетка",
+          "english": "socket, outlet",
+          "type": "home"
+       },
+       {
+          "tajik": "кран",
+          "english": "tap",
+          "type": "home"
+       },
+       {
+          "tajik": "лаълӣ",
+          "english": "tray",
+          "type": "home"
+       },
+       {
+          "tajik": "дастак",
+          "english": "handle",
+          "type": "home"
+       },
+       {
+          "tajik": "бакал",
+          "english": "mug",
+          "type": "home"
+       },
+       {
+          "tajik": "каструл",
+          "english": "pan",
+          "type": "home"
+       },
+       {
+          "tajik": "кафлез",
+          "english": "ladle",
+          "type": "home"
+       },
+       {
+          "tajik": "зарф",
+          "english": "adverb",
+          "type": "language"
+       },
+       {
+          "tajik": "замони оянда",
+          "english": "future tense",
+          "type": "language"
+       },
+       {
+          "tajik": "замони гузашта",
+          "english": "past tense",
+          "type": "language"
+       },
+       {
+          "tajik": "ибора",
+          "english": "phrase",
+          "type": "language"
+       },
+       {
+          "tajik": "замони ҳозира",
+          "english": "present tense",
+          "type": "language"
+       },
+       {
+          "tajik": "сифат",
+          "english": "adjective",
+          "type": "language"
+       },
+       {
+          "tajik": "кафидан",
+          "english": "to crack",
+          "type": "verb"
+       },
+       {
+          "tajik": "кофтан",
+          "english": "to dig",
+          "type": "verb"
+       },
+       {
+          "tajik": "хӯрондан",
+          "english": "to feed (someone)",
+          "type": "verb"
+       },
+       {
+          "tajik": "пур кардан",
+          "english": "to fill",
+          "type": "verb"
+       },
+       {
+          "tajik": "кумак расондан",
+          "english": "to help",
+          "type": "verb"
+       },
+       {
+          "tajik": "шитоб кардан",
+          "english": "to hurry",
+          "type": "verb"
+       },
+       {
+          "tajik": "ваъда додан",
+          "english": "to promise",
+          "type": "verb"
+       },
+       {
+          "tajik": "туф кардан",
+          "english": "to spit",
+          "type": "verb"
+       },
+       {
+          "tajik": "даст расондан",
+          "english": "to touch",
+          "type": "verb"
+       }
+    ],
+    "18": [
+       {
+          "tajik": "хунукӣ",
+          "english": "coldness",
+          "type": "weather"
+       },
+       {
+          "tajik": "гармӣ",
+          "english": "heat, warmth",
+          "type": "weather"
+       },
+       {
+          "tajik": "обхезӣ",
+          "english": "flood",
+          "type": "weather"
+       },
+       {
+          "tajik": "намнок",
+          "english": "humid",
+          "type": "weather"
+       },
+       {
+          "tajik": "ҳарорат",
+          "english": "temperature",
+          "type": "weather"
+       },
+       {
+          "tajik": "беоб",
+          "english": "arid",
+          "type": "weather"
+       },
+       {
+          "tajik": "ҳароратсанҷ",
+          "english": "thermometer",
+          "type": "weather"
+       },
+       {
+          "tajik": "бохабар",
+          "english": "informed",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бераҳм",
+          "english": "merciless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "намакин",
+          "english": "salty",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бенамак",
+          "english": "unsalted",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бомаданият",
+          "english": "cultured",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бемаданият",
+          "english": "uncultured",
+          "type": "adjective"
+       },
+       {
+          "tajik": "боодоб",
+          "english": "civilized",
+          "type": "adjective"
+       },
+       {
+          "tajik": "соф",
+          "english": "clear",
+          "type": "adjective"
+       },
+       {
+          "tajik": "иловагӣ",
+          "english": "additional",
+          "type": "adjective"
+       },
+       {
+          "tajik": "пурнур",
+          "english": "bright",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ботаҷриба",
+          "english": "experienced",
+          "type": "adjective"
+       },
+       {
+          "tajik": "тандуруст",
+          "english": "healthy",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бетаҷриба",
+          "english": "inexperienced",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беҳад",
+          "english": "limitless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "асосӣ",
+          "english": "main",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ҳармоҳа",
+          "english": "monthly",
+          "type": "adjective"
+       },
+       {
+          "tajik": "манфӣ",
+          "english": "negative",
+          "type": "adjective"
+       },
+       {
+          "tajik": "муқобил",
+          "english": "opposite",
+          "type": "adjective"
+       },
+       {
+          "tajik": "олӣ",
+          "english": "superb",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беодоб",
+          "english": "uncivilized",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беҳуш",
+          "english": "unconscious",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бутун",
+          "english": "whole",
+          "type": "adjective"
+       },
+       {
+          "tajik": "аслан",
+          "english": "really",
+          "type": "random"
+       },
+       {
+          "tajik": "овоз",
+          "english": "voice",
+          "type": "random"
+       },
+       {
+          "tajik": "ҷанг ",
+          "english": "war, fight",
+          "type": "random"
+       },
+       {
+          "tajik": "қарор додан",
+          "english": "to decide",
+          "type": "verb"
+       },
+       {
+          "tajik": "тамом кардан",
+          "english": "to finish",
+          "type": "verb"
+       },
+       {
+          "tajik": "хабар додан",
+          "english": "to inform",
+          "type": "verb"
+       },
+       {
+          "tajik": "нигоҳ доштан",
+          "english": "to keep",
+          "type": "verb"
+       },
+       {
+          "tajik": "нақша кашидан",
+          "english": "to make a plan",
+          "type": "verb"
+       },
+       {
+          "tajik": "номидан",
+          "english": "to name",
+          "type": "verb"
+       },
+       {
+          "tajik": "рад кардан",
+          "english": "to refuse",
+          "type": "verb"
+       },
+       {
+          "tajik": "харошидан",
+          "english": "to scratch",
+          "type": "verb"
+       },
+       {
+          "tajik": "печондан",
+          "english": "to wrap",
+          "type": "verb"
+       },
+       {
+          "tajik": "маҷбур кардан",
+          "english": "to force",
+          "type": "verb"
+       },
+       {
+          "tajik": "сурат гирифтан",
+          "english": "to take a picture",
+          "type": "verb"
+       },
+       {
+          "tajik": "иштирок кардан",
+          "english": "to participate",
+          "type": "verb"
+       }
+    ],
+    "19": [
+       {
+          "tajik": "номдор",
+          "english": "famous",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беайб",
+          "english": "faultless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "айбдор",
+          "english": "guilty",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бекор",
+          "english": "idle",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беном",
+          "english": "nameless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "барақс",
+          "english": "opposite",
+          "type": "adjective"
+       },
+       {
+          "tajik": "шахсӣ",
+          "english": "personal",
+          "type": "adjective"
+       },
+       {
+          "tajik": "имконпазир",
+          "english": "possible",
+          "type": "adjective"
+       },
+       {
+          "tajik": "лоғар",
+          "english": "skinny",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хоболуд",
+          "english": "tired, sleepy",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бемеҳр",
+          "english": "unkind",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бемасъулият",
+          "english": "irresponsible",
+          "type": "adjective"
+       },
+       {
+          "tajik": "аслӣ",
+          "english": "authentic",
+          "type": "adjective"
+       },
+       {
+          "tajik": "шикаста ",
+          "english": "broken",
+          "type": "adjective"
+       },
+       {
+          "tajik": "хушҳол",
+          "english": "cheerful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "гузаранда",
+          "english": "contagious",
+          "type": "adjective"
+       },
+       {
+          "tajik": "давомнок",
+          "english": "continuous",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бешумор",
+          "english": "countless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "каҷ",
+          "english": "crooked",
+          "type": "adjective"
+       },
+       {
+          "tajik": "шубҳанок",
+          "english": "doubtful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бешубҳа",
+          "english": "doubtless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "босавод",
+          "english": "educated",
+          "type": "adjective"
+       },
+       {
+          "tajik": "боинсоф",
+          "english": "fair",
+          "type": "adjective"
+       },
+       {
+          "tajik": "сунъӣ",
+          "english": "fake",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бетараф",
+          "english": "impartial",
+          "type": "adjective"
+       },
+       {
+          "tajik": "анъанавӣ",
+          "english": "traditional",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бесавод",
+          "english": "uneducated",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беҳис",
+          "english": "unfeeling",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беҳамто",
+          "english": "unique",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беғам",
+          "english": "untroubled",
+          "type": "adjective"
+       },
+       {
+          "tajik": "оринҷ",
+          "english": "elbow",
+          "type": "body"
+       },
+       {
+          "tajik": "меъда",
+          "english": "stomach",
+          "type": "body"
+       },
+       {
+          "tajik": "рухсор",
+          "english": "cheek",
+          "type": "body"
+       },
+       {
+          "tajik": "сина",
+          "english": "chest",
+          "type": "body"
+       },
+       {
+          "tajik": "манаҳ",
+          "english": "chin",
+          "type": "body"
+       },
+       {
+          "tajik": "мушт",
+          "english": "fist",
+          "type": "body"
+       },
+       {
+          "tajik": "гурда",
+          "english": "kidney",
+          "type": "body"
+       },
+       {
+          "tajik": "мағз",
+          "english": "brain",
+          "type": "body"
+       },
+       {
+          "tajik": "ҷигар",
+          "english": "liver",
+          "type": "body"
+       },
+       {
+          "tajik": "рӯда",
+          "english": "intestine",
+          "type": "body"
+       },
+       {
+          "tajik": "асаб",
+          "english": "nerve",
+          "type": "body"
+       },
+       {
+          "tajik": "каф",
+          "english": "palm",
+          "type": "body"
+       },
+       {
+          "tajik": "ком",
+          "english": "palate",
+          "type": "body"
+       },
+       {
+          "tajik": "косаи сар",
+          "english": "skull",
+          "type": "body"
+       },
+       {
+          "tajik": "раг",
+          "english": "vein",
+          "type": "body"
+       },
+       {
+          "tajik": "бепоён",
+          "english": "bottomless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "раҳмдил",
+          "english": "compassionate",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бовиҷдон",
+          "english": "conscientious",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беобрӯ",
+          "english": "disgraced",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беномус",
+          "english": "dishonourable",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беназир",
+          "english": "exceptional",
+          "type": "adjective"
+       },
+       {
+          "tajik": "серҳаракат",
+          "english": "lively",
+          "type": "adjective"
+       }
+    ],
+    "20": [
+       {
+          "tajik": "беҳаракат",
+          "english": "motionless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "асроромез",
+          "english": "mysterious",
+          "type": "adjective"
+       },
+       {
+          "tajik": "ҳосилнок",
+          "english": "productive",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бообрӯ",
+          "english": "respected",
+          "type": "adjective"
+       },
+       {
+          "tajik": "масъулиятнок",
+          "english": "responsible",
+          "type": "adjective"
+       },
+       {
+          "tajik": "шармдор",
+          "english": "shameful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бешарм",
+          "english": "shameless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бедоғ",
+          "english": "spotless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бомуваффақият",
+          "english": "successful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бадбахт",
+          "english": "unlucky",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беҳосил",
+          "english": "unproductive",
+          "type": "adjective"
+       },
+       {
+          "tajik": "беқайд",
+          "english": "unregistered",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бемуваффақият",
+          "english": "unsuccessful",
+          "type": "adjective"
+       },
+       {
+          "tajik": "бебаҳо",
+          "english": "worthless",
+          "type": "adjective"
+       },
+       {
+          "tajik": "асабонӣ",
+          "english": "nervous",
+          "type": "adjective"
+       },
+       {
+          "tajik": "гавазн",
+          "english": "deer",
+          "type": "animal"
+       },
+       {
+          "tajik": "оҳу",
+          "english": "deer",
+          "type": "animal"
+       },
+       {
+          "tajik": "бум",
+          "english": "owl",
+          "type": "animal"
+       },
+       {
+          "tajik": "куршапарак",
+          "english": "bat",
+          "type": "animal"
+       },
+       {
+          "tajik": "қоз",
+          "english": "goose",
+          "type": "animal"
+       },
+       {
+          "tajik": "булбул",
+          "english": "nightingale",
+          "type": "animal"
+       },
+       {
+          "tajik": "тӯтӣ",
+          "english": "parrot",
+          "type": "animal"
+       },
+       {
+          "tajik": "товус",
+          "english": "peacock",
+          "type": "animal"
+       },
+       {
+          "tajik": "зоғ",
+          "english": "raven",
+          "type": "animal"
+       },
+       {
+          "tajik": "каждум",
+          "english": "scorpion",
+          "type": "animal"
+       },
+       {
+          "tajik": "гулмоҳӣ",
+          "english": "trout",
+          "type": "animal"
+       },
+       {
+          "tajik": "парасту",
+          "english": "swallow",
+          "type": "animal"
+       },
+       {
+          "tajik": "аҷдод",
+          "english": "ancestor",
+          "type": "people"
+       },
+       {
+          "tajik": "авлод",
+          "english": "generation",
+          "type": "people"
+       },
+       {
+          "tajik": "ширкат",
+          "english": "company",
+          "type": "place"
+       },
+       {
+          "tajik": "сафоратхона",
+          "english": "embassy",
+          "type": "place"
+       },
+       {
+          "tajik": "пивахона",
+          "english": "pub",
+          "type": "place"
+       },
+       {
+          "tajik": "минтака",
+          "english": "region",
+          "type": "place"
+       },
+       {
+          "tajik": "хиёбон",
+          "english": "avenue, wide street",
+          "type": "place"
+       },
+       {
+          "tajik": "толори варзишӣ",
+          "english": "gym",
+          "type": "place"
+       },
+       {
+          "tajik": "майдони теннис",
+          "english": "tennis court",
+          "type": "place"
+       },
+       {
+          "tajik": "сарбанд",
+          "english": "dam",
+          "type": "place"
+       },
+       {
+          "tajik": "ҳисор",
+          "english": "fortress",
+          "type": "place"
+       },
+       {
+          "tajik": "кон",
+          "english": "mine",
+          "type": "place"
+       },
+       {
+          "tajik": "осорхона",
+          "english": "museum",
+          "type": "place"
+       },
+       {
+          "tajik": "муқоиса кардан",
+          "english": "to compare",
+          "type": "verb"
+       },
+       {
+          "tajik": "муҳофиза кардан",
+          "english": "to protect",
+          "type": "verb"
+       },
+       {
+          "tajik": "истеъмол кардан",
+          "english": "to use",
+          "type": "verb"
+       },
+       {
+          "tajik": "анҷом додан",
+          "english": "to accomplish",
+          "type": "verb"
+       },
+       {
+          "tajik": "ба анҷом расидан",
+          "english": "to come to an end",
+          "type": "verb"
+       },
+       {
+          "tajik": "исбот кардан",
+          "english": "to prove",
+          "type": "verb"
+       },
+       {
+          "tajik": "афшондан",
+          "english": "to scatter",
+          "type": "verb"
+       },
+       {
+          "tajik": "иқрор кардан",
+          "english": "to confess",
+          "type": "verb"
+       },
+       {
+          "tajik": "инкор кардан",
+          "english": "to deny",
+          "type": "verb"
+       },
+       {
+          "tajik": "баён кардан",
+          "english": "to state",
+          "type": "verb"
+       }
+    ]
+ }
