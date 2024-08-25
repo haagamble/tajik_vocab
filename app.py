@@ -5,7 +5,7 @@ import logging
 
 app = Flask(__name__)
 # app.secret_key = 'your_secret_key'
-app.secret_key = 'key_25_key'
+app.secret_key = 'key_26_key'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
