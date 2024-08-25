@@ -9,31 +9,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Level {{ level }}</h1>
-        <h2>{{ word }}</h2>
-
-        <form action="{{ url_for('check_answer') }}" method="post" class="center-form">
-            <input type="hidden" name="correct_answer" value="{{ correct_answer }}">
-            {% for choice in choices %}
-            <button type="submit" name="answer" value="{{ choice }}" class="button">{{ choice }}</button>
-            {% endfor %}
-        </form>
-
-        {% with messages = get_flashed_messages(with_categories=true) %}
-        {% if messages %}
-        <div class="scoreboard">
-            <p>Score: {{ score }}</p>
-            <p>Streak: {{ streak }}</p>
-            <ul>
-                {% for category, message in messages %}
-                <li class="flash-message {{ category }}">{{ message }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% endif %}
-        {% endwith %}
-    </div>
+    <h1>Welcome to the Game!</h1>
+    <p>Instructions: Answer the questions to progress through the levels. Good luck!</p>
+    <a href="{{ url_for('tajik_vocab') }}">Start Game</a>
 </body>
 
 </html>
