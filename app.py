@@ -1,10 +1,26 @@
 from flask import Flask, render_template, request, session, redirect, url_for, flash
 import json
 import random
+import logging
 
 app = Flask(__name__)
 # app.secret_key = 'your_secret_key'
 app.secret_key = 'key_25_key'
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+@app.errorhandler(500)
+def internal_error(error):
+    logger.error(f"Server Error: {error}, route: {request.url}")
+    return render_template('500.html'), 500
+
+@app.errorhandler(404)
+def not_found_error(error):
+    logger.error(f"Page Not Found: {error}, route: {request.url}")
+    return render_template('404.html'), 404
+
 
 # Load vocab.json
 with open('vocab.json', 'r', encoding='utf-8') as f:
@@ -24,10 +40,6 @@ def get_new_question(level):
         [entry['english'] for entry in level_words if entry != word_entry and entry['type'] == word_type], 3
     )   
 
-    # Generate choices including the correct answer and 3 random incorrect answers
-    # choices = [correct_answer] + random.sample(
-    #     [entry['english'] for entry in level_words if entry != word_entry], 3
-    # )
     random.shuffle(choices)
     return word_entry['tajik'], choices, correct_answer
 
@@ -36,20 +48,6 @@ def get_new_question(level):
 def index():
     print("in index")
     return render_template('index.html')
-    # Initialize score and streak if not already in session
-    # if 'score' not in session:
-    #     session['score'] = 0
-    # if 'streak' not in session:
-    #     session['streak'] = 0
-    # if 'level' not in session:
-    #     session['level'] = 1
-    # if 'completed' not in session:
-    #     session['completed'] = False
-
- 
-    
-    # Render the template with the current game state
-    # return render_template('index.html', word=word, choices=choices, correct_answer=correct_answer, level=session['level'], score=session['score'], streak=session['streak'])
 
 @app.route('/tajik-vocab', methods=['POST', 'GET'])
 def tajik_vocab():
