@@ -1,58 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server Error</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8d7da;
-            color: #721c24;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+{% block title %} Tajik Vocabulary Quiz{% endblock %}
 
-        .container {
-            text-align: center;
-            padding: 20px;
-            border: 1px solid #f5c6cb;
-            background-color: #f8d7da;
-            border-radius: 5px;
-        }
+{% block content %}
 
-        h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
+<div>
+    <h1>500</h1>
+    <p>Oops! Something went wrong on our end.</p>
+    <p>Please try again later or <a href="{{ url_for('index') }}">go back to the homepage</a>.</p>
+</div>
 
-        p {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
 
-        a {
-            color: #721c24;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="container">
-        <h1>500</h1>
-        <p>Oops! Something went wrong on our end.</p>
-        <p>Please try again later or <a href="{{ url_for('index') }}">go back to the homepage</a>.</p>
-    </div>
-</body>
-
-</html>
+{% endblock %}

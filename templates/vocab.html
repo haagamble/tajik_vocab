@@ -1,39 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tajik Vocabulary Quiz</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-</head>
+{% block title %} Tajik Vocabulary Quiz{% endblock %}
 
-<body>
-    <div class="container">
-        <h1>Level {{ level }}</h1>
-        <h2>{{ word }}</h2>
+{% block content %}
 
-        <form action="{{ url_for('tajik_vocab') }}" method="post" class="center-form">
-            <input type="hidden" name="correct_answer" value="{{ correct_answer }}">
-            {% for choice in choices %}
-            <button type="submit" name="answer" value="{{ choice }}" class="button">{{ choice }}</button>
-            {% endfor %}
-        </form>
 
-        {% with messages = get_flashed_messages(with_categories=true) %}
-        {% if messages %}
-        <div class="scoreboard">
-            <p>Score: {{ score }}</p>
-            <p>Streak: {{ streak }}</p>
-            <ul>
-                {% for category, message in messages %}
-                <li class="flash-message {{ category }}">{{ message }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-        {% endif %}
-        {% endwith %}
-    </div>
-</body>
+<h1>Level {{ level }}</h1>
+<h2>{{ word }}</h2>
 
-</html>
+<form action="{{ url_for('tajik_vocab') }}" id="quiz-form" method="post">
+    <input type="hidden" name="correct_answer" value="{{ correct_answer }}">
+    {% for choice in choices %}
+    <button type="submit" name="answer" value="{{ choice }}" class="button">{{ choice }}</button>
+    {% endfor %}
+</form>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+<div class="scoreboard">
+    <p>Score: {{ score }}</p>
+    <p>Streak: {{ streak }}</p>
+    <ul>
+        {% for category, message in messages %}
+        <li class="flash-message {{ category }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{% endwith %}
+
+
+{% endblock %}

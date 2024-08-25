@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tajik Vocabulary Quiz</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-</head>
+{% block title %} Tajik Vocabulary Quiz{% endblock %}
 
-<body>
-    <h1>Welcome to the Game!</h1>
-    <p>Instructions: Answer the questions to progress through the levels. Good luck!</p>
-    <a href="{{ url_for('tajik_vocab') }}">Start Game</a>
-</body>
+{% block content %}
 
-</html>
+<h1>Welcome to the Game!</h1>
+<p>Instructions: Answer the questions to progress through the levels. Good luck!</p>
+<a href="{{ url_for('tajik_vocab') }}">Start Game</a>
+
+{% endblock %}
