@@ -27,6 +27,14 @@ with open('vocab.json', 'r', encoding='utf-8') as f:
     words = json.load(f)
 
 def get_new_question(level):
+    # if level is 20 get word from a different level 50% of the time
+    if session['completed'] == True and random.random() < 0.5:
+        level = random.randint(1, 19)   
+    #change to a lower level 20% of the time
+    elif random.random() < 0.2 and level > 1:
+        #get a random number between 1 and the current level
+        level = random.randint(1, level)
+    print(level)    
     # Get a random word entry for the current level
     level_words = words[str(level)]
     # print(level_words)
