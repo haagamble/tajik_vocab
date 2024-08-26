@@ -5,7 +5,7 @@ import logging
 
 app = Flask(__name__)
 # app.secret_key = 'your_secret_key'
-app.secret_key = 'key_27_key'
+app.secret_key = 'key_28_key'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -37,7 +37,7 @@ def get_new_question(level):
     elif random.random() < 0.2 and level > 1:
         #get a random number between 1 and the current level
         level = random.randint(1, level)
-    print(level)    
+    print("level: ", level)    
     # Get a random word entry for the current level
     level_words = words[str(level)]
     # print(level_words)
@@ -81,10 +81,11 @@ def tajik_vocab():
         if 'score' not in session:
             session['score'] = 0
             session['streak'] = 0
+            session['highest_streak'] = 0
             session['level'] = 1
             session['completed'] = False
         word, choices, correct_answer = get_new_question(session['level'])
-        return render_template('vocab.html', word=word, choices=choices, correct_answer=correct_answer, level=session['level'], score=session['score'], streak=session['streak'])
+        return render_template('vocab.html', word=word, choices=choices, correct_answer=correct_answer, level=session['level'], score=session['score'], streak=session['streak'], highest_streak=session['highest_streak'])
     
     # If POST request, check the user's answer and update the game state
     if request.method == 'POST':
@@ -98,8 +99,12 @@ def tajik_vocab():
         # Check if the user's answer is correct
         if user_answer == correct_answer:
             session['streak'] += 1
+            if session['streak'] > session['highest_streak']:
+                session['highest_streak'] = session['streak']
             session['score'] += 1
             flash('Correct!', 'success')
+            print("streak", session['streak'])
+            print("highest streak", session['highest_streak'])
 
             # Check if the streak is a multiple of 3 and increase the level unless it is already 20
             if session['streak'] > 0 and session['streak'] % 3 == 0 and session['level'] < 20:

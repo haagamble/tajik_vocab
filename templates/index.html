@@ -4,8 +4,17 @@
 
 {% block content %}
 
-<h1>Welcome to the Game!</h1>
-<p>Instructions: Answer the questions to progress through the levels. Good luck!</p>
-<a href="{{ url_for('tajik_vocab') }}">Start Game</a>
+<h1>Welcome to the Tajik Vocabulary Quiz!</h1>
+<p>Instructions:</p>
+<ul>
+    <li>Answer the vocabulary questions to progress through the levels.</li>
+    <li>If you answer three questions correctly in a row, you will advance to the next level.</li>
+    <li>If you answer incorrectly, you will drop down a level.</li>
+    <li>Try to reach the highest level possible!</li>
+    <li>Good luck and have fun!</li>
+</ul>
+<a href="{{ url_for('tajik_vocab') }}">
+    <button class="btn btn-primary">Start Game</button>
+</a>
 
 {% endblock %}
