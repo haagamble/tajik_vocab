@@ -20,7 +20,9 @@
 <div class="scoreboard">
     <p>Score: {{ score }}</p>
     <p>Streak: {{ streak }}</p>
-    <ul>
+</div>
+<div class="flash-messages">
+    <ul class="flash-message">
         {% for category, message in messages %}
         <li class="flash-message {{ category }}">{{ message }}</li>
         {% endfor %}

@@ -5,7 +5,7 @@ import logging
 
 app = Flask(__name__)
 # app.secret_key = 'your_secret_key'
-app.secret_key = 'key_26_key'
+app.secret_key = 'key_27_key'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -89,20 +89,27 @@ def tajik_vocab():
             if session['streak'] > 0 and session['streak'] % 3 == 0 and session['level'] < 20:
                 if session['level'] < 20:
                     session['level'] += 1
-                    flash('You moved to the next level!', 'success') 
+                    flash('You moved to the next level!', 'accomplishment') 
             # Check if completed is true
             elif session['completed'] == True:
-                flash('Keep going to increase your streak!', 'success')   
+                # encourage the user not to stop
+                # choose from 15 different encouragements
+                encouragement = ['Fantastic!', 'Extend that streak!', 'You are crushing it!', 'Keep going to increase your streak!', 'You are a language champion', 'Look at your streak! Amazing!', 'Phenomenal!', 'You are on fire!', 'Bravo!!!', 'Keep up the great work!', 'Incredible progress', 'You are unstopable!', 'Keep shining!!', 'You are a language wizard!', 'You are an inspiration!']
+                flash(random.choice(encouragement), 'encouragement')
             # Check if the streak is a multiple of 3 and the level is already 20
             elif session['streak'] > 0 and session['streak'] % 3 == 0 and session['level'] == 20:
-                flash('Congratulations! You have completed all levels!', 'success')
+                flash('Congratulations! You have completed all levels!', 'completion')
                 # create variable completed is true
                 session['completed'] = True
             
             # else encourage the user to keep going
-            else:
-                flash('You are doing great!', 'success')
-        
+            elif session['streak'] > 5:
+                # encourage the user to keep going
+                # choose from 15 different encouragements
+                encouragement = ['Great job!', 'You are doing great!', 'Keep up the good work!', 'You are on a roll!', 'You are unstoppable!', 'You are a language master!', 'You are a language genius!', 'Amazing', 'Look at that streak!', 'You are a language whiz!', 'Go you!', 'Woohoo!!!', 'Wow ... just wow', 'Impressive!', 'You are a language superstar!']
+
+                flash(random.choice(encouragement), 'encouragement')
+                        
         else:
             # set the streak to 0 if the answer is incorrect
             # decrease level by 1 unless level is at 1

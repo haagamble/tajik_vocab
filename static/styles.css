@@ -1,145 +1,115 @@
+/* body of app */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     color: #333;
-    width: 90%
-}
-
-.container {
-    background: #fff; 
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    max-width: 600px; /* Use percentage for flexibility */
-    width: 100%;
-    height: 500px; /* Fixed height */
-    overflow: auto; /* Allow scrolling within the container */
-    text-align: center;
-    color: #fff; 
-    align-items: center;
+    justify-content: center;
+    align-items: center; /* Center the app in the middle of the screen */
+    min-height: 100vh;
 }
 
-h1 {
-    font-size: 2.5em;
-    color: #007bff; 
-    margin: 5px 0; /* Reduce margins */
-}
-
-h2 {
-    font-size: 1.5em;
-    color: #6c757d;
-    margin-bottom: 5px;
-}
-
-form {
-    display: flex;
-    flex-direction: column; /* Ensure buttons are in a vertical arrangement */
-    align-items: center;
-    gap: 3px; /* Adds space between the buttons */
+/* Container for the app */
+.container {
     width: 100%;
     max-width: 600px;
+    height: 80vh; /* Fixed height for the container */
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 300px;
-    margin: 5px 0;
-    padding: 10px;
-    font-size: 14px;
-    cursor: pointer;
+/* Styling for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    color: #007bff;
     text-align: center;
-    background: #007bff; 
-    color: #fff; 
+}
+
+/* Styling for paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Styling for the form that contains the question and the answer buttons */
+form {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for buttons */
+button {
+    width: 70%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
     border: none;
     border-radius: 5px;
-    transition: background 0.3s ease;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px; /* Space between buttons */
 }
 
-.button:hover {
-    background: #0056b3; /* Change color on hover */
+button:hover {
+    background-color: #0056b3;
+}
+/* Styling for the scoreboard */
+.scoreboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
 }
 
+/* Styling for flash messages */
 .flash-message {
     padding: 10px;
-    margin: 10px 0;
     border-radius: 5px;
-    max-width: 400px;
-    align-items: center;
     text-align: center;
+    display: inline-block;
+    margin: 0px; 
 }
 
+/* Success messages */
 .flash-message.success {
     background-color: #d4edda;
     color: #155724;
+    border: 1px solid #c3e6cb;
 }
 
+/* Encouragement messages */
+.flash-message.encouragement {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+/* Accomplishment messages */
+.flash-message.accomplishment {
+    background-color: #cce5ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+}
+
+/* Completion messages */   
+.flash-message.completion {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+/* Wrong answer messages */
 .flash-message.danger {
-    background-color: #f44336; /* Red for danger */
+    background-color: #f8d7da;
+    color: #721c24;
+    margin-bottom: 10px;
 }
-
-.scoreboard {
-    margin-top: 0px;
-    color: #561010; 
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    width: 100%;
-    max-width: 600px;
-}
-
-.scoreboard p {
-    margin: 5px 0; /* Adjust the margin to reduce space between <p> elements */
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-    color: #000;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-    body {
-        margin: 5px;
-    }
-
-    .container {
-        padding: 10px;
-        height: 400px; /* Adjust height for smaller screens */
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    .button {
-        padding: 8px;
-        font-size: 12px;
-    }
-}
-
-
-.button.correct {
-    background-color: green;
-    color: white;
-}
-
