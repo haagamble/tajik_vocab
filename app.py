@@ -21,12 +21,15 @@ def not_found_error(error):
     logger.error(f"Page Not Found: {error}, route: {request.url}")
     return render_template('404.html'), 404
 
-
 # Load vocab.json
 with open('vocab.json', 'r', encoding='utf-8') as f:
     words = json.load(f)
 
 def get_new_question(level):
+    # Initialize previous words list in session if it doesn't exist
+    if 'previous_words' not in session:
+        session['previous_words'] = []
+
     # if level is 20 get word from a different level 50% of the time
     if session['completed'] == True and random.random() < 0.5:
         level = random.randint(1, 19)   
@@ -38,10 +41,23 @@ def get_new_question(level):
     # Get a random word entry for the current level
     level_words = words[str(level)]
     # print(level_words)
+    # Ensure the new word is not in the previous words list
     word_entry = random.choice(level_words)
+    while word_entry['english'] in session['previous_words']:
+        word_entry = random.choice(level_words)
+
     correct_answer = word_entry['english']
     #get type of word of word_entry
     word_type = word_entry['type']
+
+    # Update the previous words list, keeping size to 10
+    session['previous_words'].append(correct_answer)
+    if len(session['previous_words']) > 10:
+        session['previous_words'].pop(0)
+    print(session['previous_words'])
+
+    # Save the updated session
+    session.modified = True
 
     # Generate choices including the correct answer and 3 random incorrect answers with the same tyep
     choices = [correct_answer] + random.sample(
@@ -118,9 +134,8 @@ def tajik_vocab():
             if session['level'] > 1:
                 session['level'] -= 1
             session['completed'] = False
-            flash('Incorrect.', 'danger')
-            
-        
+            flash('Incorrect.', 'danger') 
+       
         # Redirect back to the same route route to get a new question
         return redirect(url_for('tajik_vocab'))
 
