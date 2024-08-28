@@ -528,11 +528,6 @@
           "type": "people"
        },
        {
-          "tajik": "писар",
-          "english": "son",
-          "type": "people"
-       },
-       {
           "tajik": "фарзанд",
           "english": "child",
           "type": "people"
@@ -945,6 +940,11 @@
           "tajik": "бад",
           "english": "bad",
           "type": "adjective"
+       },
+       {
+         "tajik": "писар",
+         "english": "son",
+         "type": "people"
        },
        {
           "tajik": "бас",

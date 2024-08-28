@@ -2,14 +2,29 @@ from flask import Flask, render_template, request, session, redirect, url_for, f
 import json
 import random
 import logging
+from datetime import datetime
 
 app = Flask(__name__)
-# app.secret_key = 'your_secret_key'
-app.secret_key = 'key_28_key'
+app.secret_key = 'your_secret_key'
+# app.secret_key = 'key_28_key'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+def reset_game_if_new_day():
+    today = datetime.now().date()
+    last_access_date = session.get('last_access_date')
+    
+    if last_access_date is None or last_access_date != today:
+        # Reset game state here
+        session['game_state'] = 'reset'
+        session['score'] = 0
+        session['streak'] = 0
+        session['level'] = 1
+        session['last_access_date'] = today
+        logger.info("Game has been reset for a new day.")
+
 
 @app.errorhandler(500)
 def internal_error(error):
@@ -71,12 +86,12 @@ def get_new_question(level):
 @app.route('/')
 def index():
     print("in index")
+    reset_game_if_new_day()
     return render_template('index.html')
 
 @app.route('/tajik-vocab', methods=['POST', 'GET'])
 def tajik_vocab():
     # If GET request, initialize the game state and get the first question
-
     if request.method == 'GET':
         if 'score' not in session:
             session['score'] = 0
@@ -89,9 +104,11 @@ def tajik_vocab():
     
     # If POST request, check the user's answer and update the game state
     if request.method == 'POST':
-    
+        # print all the form data
+        print(request.form)
         user_answer = request.form['answer']
         correct_answer = request.form['correct_answer']
+        word = request.form['word']
 
         if 'completed' not in session:
             session['completed'] = False
@@ -139,7 +156,9 @@ def tajik_vocab():
             if session['level'] > 1:
                 session['level'] -= 1
             session['completed'] = False
-            flash('Incorrect.', 'danger') 
+            # Give correct answer in a flash in the form english: tajik
+            flash(f'Incorrect. {word} : {correct_answer}', 'danger')
+           
        
         # Redirect back to the same route route to get a new question
         return redirect(url_for('tajik_vocab'))

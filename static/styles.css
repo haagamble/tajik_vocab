@@ -8,6 +8,8 @@ body {
     justify-content: center;
     align-items: center; /* Center the app in the middle of the screen */
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 /* Container for the app */
@@ -28,8 +30,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
     margin-top: 0px;
-    color: #007bff;
+    color: #222;
     text-align: center;
+}
+
+/* Accessibility improvements */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    outline: none;
 }
 
 /* Styling for paragraphs */
@@ -60,6 +73,7 @@ button {
 
 button:hover {
     background-color: #0056b3;
+    outline: none;
 }
 /* Styling for the scoreboard */
 .scoreboard {
@@ -112,4 +126,12 @@ button:hover {
     background-color: #f8d7da;
     color: #721c24;
     margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        height: auto; /* Adjust height for smaller screens */
+        padding: 15px;
+    }
 }
