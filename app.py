@@ -12,18 +12,55 @@ app.secret_key = 'your_secret_key'
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Ensure session variables are initialized
+def initialize_session_variables():
+    if 'completed' not in session:
+        session['completed'] = False
+        logger.info("Session variable 'completed' initialized") 
+    if 'score' not in session:
+        session['score'] = 0
+        logger.info("Session variable 'score' initialized")
+    if 'streak' not in session:
+        session['streak'] = 0
+        logger.info("Session variable 'streak' initialized")
+    if 'highest_streak' not in session:
+        session['highest_streak'] = 0
+        logger.info("Session variable 'highest_streak' initialized")
+    if 'level' not in session:
+        session['level'] = 1
+        logger.info("Session variable 'level' initialized")
+
 def reset_game_if_new_day():
+    # Get today's date
     today = datetime.now().date()
-    last_access_date = session.get('last_access_date')
+    # Get the last played date from the session
+    last_played_str = session.get('last_played')
+
+    if last_played_str:
+        try:
+            last_played = datetime.strptime(last_played_str, '%Y-%m-%d').date()
+        except ValueError:
+            # Handle the case where the date format is incorrect
+            last_played = None
+    else:
+        last_played = None
     
-    if last_access_date is None or last_access_date != today:
-        # Reset game state here
-        session['game_state'] = 'reset'
+    logger.info("Session variable 'last_played' initialized")
+
+    # Check if the last played date is not today
+    if last_played is None or last_played != today:
+        # Reset the game state
         session['score'] = 0
         session['streak'] = 0
+        session['highest_streak'] = 0
         session['level'] = 1
-        session['last_access_date'] = today
-        logger.info("Game has been reset for a new day.")
+        session['completed'] = False
+        # Update the last played date as a string
+        session['last_played'] = today.strftime('%Y-%m-%d')
+    
+    
+    logger.info(f"Last played date: {session['last_played']}")
+    logger.info(f"Today's date: {today}")    
 
 
 @app.errorhandler(500)
@@ -91,14 +128,17 @@ def index():
 
 @app.route('/tajik-vocab', methods=['POST', 'GET'])
 def tajik_vocab():
+    # Reset the game state if it is a new day
+    reset_game_if_new_day()
+    # Initialize session variables if there is no session
+    if not session:
+        initialize_session_variables()
+    #logger.info(f"Game state: {session}")
+
     # If GET request, initialize the game state and get the first question
     if request.method == 'GET':
-        if 'score' not in session:
-            session['score'] = 0
-            session['streak'] = 0
-            session['highest_streak'] = 0
-            session['level'] = 1
-            session['completed'] = False
+        # log the session
+        print(session)
         word, choices, correct_answer = get_new_question(session['level'])
         return render_template('vocab.html', word=word, choices=choices, correct_answer=correct_answer, level=session['level'], score=session['score'], streak=session['streak'], highest_streak=session['highest_streak'])
     
