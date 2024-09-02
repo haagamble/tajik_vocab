@@ -6,7 +6,7 @@
 
 
 <h1>Level {{ level }}</h1>
-<h2>{{ word }}</h2>
+<h2 class="question-word">{{ word }}</h2>
 
 <form action="{{ url_for('tajik_vocab') }}" id="quiz-form" method="post">
     <input type="hidden" name="correct_answer" value="{{ correct_answer }}">
@@ -22,8 +22,6 @@
 <div class="scoreboard">
     <p>Score: {{ score }}</p>
     <p>Streak: {{ streak }}</p>
-</div>
-<div>
     <p>Highest streak: {{ highest_streak }}</p>
 </div>
 <div class="flash-messages">

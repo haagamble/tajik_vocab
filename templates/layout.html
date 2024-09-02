@@ -10,13 +10,21 @@
 
 <body>
     <header>
-        <h1>Tajik Vocabulary Quiz</h1>
+        <nav class="navbar">
+            <h1 class="app-title">Tajik Vocabulary Quiz</h1>
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="{{ url_for('index') }}">Home</a></li>
+                <li class="navbar-item"><a href="{{ url_for('tajik_vocab') }}">Vocab Quiz</a></li>
+                <li class="navbar-item"><a href="{{ url_for('about') }}">About</a></li>
+            </ul>
+        </nav>
+
     </header>
     <div class="container">
         {% block content %}{% endblock %}
     </div>
     <footer>
-        <p>&copy; 2023 Tajik Vocabulary Quiz</p>
+        <p>&copy; 2024 Tajik Vocabulary Quiz</p>
     </footer>
 </body>
 

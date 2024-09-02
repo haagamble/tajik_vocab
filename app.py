@@ -128,6 +128,10 @@ def index():
     reset_game_if_new_day()
     return render_template('index.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 @app.route('/tajik-vocab', methods=['POST', 'GET'])
 def tajik_vocab():
     # Reset the game state if it is a new day
