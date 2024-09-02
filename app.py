@@ -5,8 +5,10 @@ import logging
 from datetime import datetime
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
-# app.secret_key = 'key_28_key'
+#app.secret_key = 'your_secret_key'
+
+# set key for testing
+app.secret_key = 'sept1_10_15'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -45,8 +47,6 @@ def reset_game_if_new_day():
     else:
         last_played = None
     
-    logger.info("Session variable 'last_played' initialized")
-
     # Check if the last played date is not today
     if last_played is None or last_played != today:
         # Reset the game state
@@ -55,6 +55,8 @@ def reset_game_if_new_day():
         session['highest_streak'] = 0
         session['level'] = 1
         session['completed'] = False
+        session['previous_words'] = []
+        session['question_answered'] = False
         # Update the last played date as a string
         session['last_played'] = today.strftime('%Y-%m-%d')
     
@@ -106,7 +108,7 @@ def get_new_question(level):
     session['previous_words'].append(correct_answer)
     if len(session['previous_words']) > 10:
         session['previous_words'].pop(0)
-    print(session['previous_words'])
+    # print(session['previous_words'])
 
     # Save the updated session
     session.modified = True
@@ -122,7 +124,7 @@ def get_new_question(level):
 # Initialize the game state
 @app.route('/')
 def index():
-    print("in index")
+    # print("in index")
     reset_game_if_new_day()
     return render_template('index.html')
 
@@ -135,17 +137,29 @@ def tajik_vocab():
         initialize_session_variables()
     #logger.info(f"Game state: {session}")
 
+    # see how user got to page
+    referer = request.headers.get("Referer")
+    logger.info(f"User came from: {referer}")  
+    # log if it is post or get request
+    logger.info(f"Request method: {request.method}")
+
     # If GET request, initialize the game state and get the first question
     if request.method == 'GET':
-        # log the session
-        print(session)
+        # Check if the user is being redirected
+        # checks if the session contains a key named 'redirected' with a value of True
+        if session.get('redirected', False):
+            session['redirected'] = False
+        else:
+            # set streak to zero
+            session['streak'] = 0
+
         word, choices, correct_answer = get_new_question(session['level'])
         return render_template('vocab.html', word=word, choices=choices, correct_answer=correct_answer, level=session['level'], score=session['score'], streak=session['streak'], highest_streak=session['highest_streak'])
     
     # If POST request, check the user's answer and update the game state
     if request.method == 'POST':
-        # print all the form data
-        print(request.form)
+        # print(request.form)
+    
         user_answer = request.form['answer']
         correct_answer = request.form['correct_answer']
         word = request.form['word']
@@ -199,7 +213,10 @@ def tajik_vocab():
             # Give correct answer in a flash in the form english: tajik
             flash(f'Incorrect. {word} : {correct_answer}', 'danger')
            
-       
+        # Set the session variable to indicate that the user has answered a question
+        session['answered_question'] = True
+        # Set the session variable to indicate that the user is being redirected
+        session['redirected'] = True
         # Redirect back to the same route route to get a new question
         return redirect(url_for('tajik_vocab'))
 
