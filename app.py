@@ -5,10 +5,10 @@ import logging
 from datetime import datetime
 
 app = Flask(__name__)
-#app.secret_key = 'your_secret_key'
+app.secret_key = 'your_secret_key'
 
 # set key for testing
-app.secret_key = 'sept1_10_15'
+# app.secret_key = 'sept1_10_15'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
