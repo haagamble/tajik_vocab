@@ -3,33 +3,43 @@
 {% block title %} Tajik Vocabulary Quiz{% endblock %}
 
 {% block content %}
+<div about-container>
+    <h1>Welcome to the Tajik Vocabulary Quiz!</h1>
+    <p>About:</p>
+    <p>The Tajik Vocabulary Quiz is designed to help you learn and practice Tajik vocabulary in a fun and interactive
+        way.
+        Whether you are a beginner or an advanced learner, this quiz will help you improve your language skills and
+        expand
+        your vocabulary.</p>
+    <p>This quiz questions cover a wide range of topics and difficulty levels. By regularly practicing with this quiz,
+        you
+        can improve your vocabulary in many areas.</p>
+    <p>Our goal is to make language learning enjoyable and accessible for everyone. We hope you find this quiz helpful
+        and
+        engaging. Happy language learning!</p>
 
-<h1>Welcome to the Tajik Vocabulary Quiz!</h1>
-<p>About:</p>
-<p>The Tajik Vocabulary Quiz is designed to help you learn and practice Tajik vocabulary in a fun and interactive way.
-    Whether you are a beginner or an advanced learner, this quiz will help you improve your language skills and expand
-    your vocabulary.</p>
-<p>This quiz questions cover a wide range of topics and difficulty levels. By regularly practicing with this quiz, you
-    can improve your vocabulary in many areas.</p>
-<p>Our goal is to make language learning enjoyable and accessible for everyone. We hope you find this quiz helpful and
-    engaging. Happy language learning!</p>
-
-<p>FAQ:</p>
-<p><strong>Q: How often should I use the quiz?</strong></p>
-<p>A: We recommend using the quiz regularly, at least a few times a week, to reinforce your learning and track your
-    progress.</p>
-<p><strong>Q: Why did my streak reset to zero?</strong></p>
-<p>A: At the start of a new day, the streak resets to zero. The streak also resets to zero if you refresh the page
-    without answering the question, or if you leave the quiz page.
-</p>
-<p><strong>Q: Why did I get an easy question?</strong></p>
-<p>A: The quiz has 20 levels of difficulty, but to ensure that the user is tested on all words, the quiz selects a word
-    from an easier level about 10% of the time. Once you have reached level 20, the quiz selects a word from an easier
-    level 50% of the time. </p>
+    <p>FAQ:</p>
+    <p><strong>Q: How often should I use the quiz?</strong></p>
+    <p>A: I recommend using the quiz regularly, at least a few times a week to keep growing your vocabulary.</p>
+    <p><strong>Q: Why did my streak reset to zero?</strong></p>
+    <p>A: At the start of a new day, the streak resets to zero. The streak also resets to zero if you refresh the page
+        without answering the question, or if you leave the quiz page.
+    </p>
+    <p><strong>Q: How many words are in the app?</strong></p>
+    <p>A: The quiz has over 2500 words, spread across 20 levels of difficulty.</p>
+    <p><strong>Q: Why did I get an easy question?</strong></p>
+    <p>A: The quiz has 20 levels of difficulty, but to ensure that the user is tested on all words, the quiz selects a
+        word
+        from an easier level about 10% of the time. Once you have reached level 20, the quiz selects a word from an
+        easier
+        level 50% of the time. </p>
+    <p><strong>Q: I found a mistake in the app. What should I do?</strong></p>
+    <p>A: Please tell Heather, and she will fix it. Thank you!</p>
 
 
-<a href="{{ url_for('tajik_vocab') }}">
-    <button class="btn btn-primary">Start Game</button>
-</a>
+    <a href="{{ url_for('tajik_vocab') }}">
+        <button class="btn btn-primary">Start Game</button>
+    </a>
+</div>
 
 {% endblock %}
