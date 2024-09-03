@@ -60,9 +60,8 @@ def reset_game_if_new_day():
         # Update the last played date as a string
         session['last_played'] = today.strftime('%Y-%m-%d')
     
-    
-    logger.info(f"Last played date: {session['last_played']}")
-    logger.info(f"Today's date: {today}")    
+    # logger.info(f"Last played date: {session['last_played']}")
+    # logger.info(f"Today's date: {today}")    
 
 
 @app.errorhandler(500)
@@ -91,7 +90,7 @@ def get_new_question(level):
     elif random.random() < 0.2 and level > 1:
         #get a random number between 1 and the current level
         level = random.randint(1, level)
-    print("level: ", level)    
+    # print("level: ", level)    
     # Get a random word entry for the current level
     level_words = words[str(level)]
     # print(level_words)
@@ -143,9 +142,9 @@ def tajik_vocab():
 
     # see how user got to page
     referer = request.headers.get("Referer")
-    logger.info(f"User came from: {referer}")  
+    # logger.info(f"User came from: {referer}")  
     # log if it is post or get request
-    logger.info(f"Request method: {request.method}")
+    # logger.info(f"Request method: {request.method}")
 
     # If GET request, initialize the game state and get the first question
     if request.method == 'GET':
@@ -178,8 +177,10 @@ def tajik_vocab():
                 session['highest_streak'] = session['streak']
             session['score'] += 1
             flash('Correct!', 'success')
-            print("streak", session['streak'])
-            print("highest streak", session['highest_streak'])
+            # log level, streak and highest streat
+            logger.info(f"Level: {session['level']}, Streak: {session['streak']}, Highest Streak: {session['highest_streak']}") 
+            # print("streak", session['streak'])
+            # print("highest streak", session['highest_streak'])
 
             # Check if the streak is a multiple of 3 and increase the level unless it is already 20
             if session['streak'] > 0 and session['streak'] % 3 == 0 and session['level'] < 20:
