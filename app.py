@@ -32,7 +32,6 @@ with open('vocab.json', 'r', encoding='utf-8') as f:
 # Initialize the game state
 @app.route('/')
 def index():
-    # print("in index")
     reset_game_if_new_day()
     return render_template('index.html')
 
@@ -49,7 +48,7 @@ def tajik_vocab():
         initialize_session_variables()
     #logger.info(f"Game state: {session}")
 
-    # see how user got to page
+    # see how user got to page (for debugging)
     referer = request.headers.get("Referer")
     logger.info(f"User came from: {referer}")  
     # log if it is post or get request
@@ -66,22 +65,19 @@ def tajik_vocab():
             session['streak'] = 0
 
         word, choices, correct_answer = get_new_question(session['level'], session['translation_direction'],words)
-        print("word", word)
+        # print("word: ", word)
         return render_template('vocab.html', word=word, choices=choices, correct_answer=correct_answer, level=session['level'], score=session['score'], streak=session['streak'], highest_streak=session['highest_streak'])
     
     # If POST request, check the user's answer and update the game state
     if request.method == 'POST':
-        print("in post")
         # check if the session is initialized
         if not session:
             initialize_session_variables()
-        print("session", session)
         # get the hidden value called path
         path = request.form['path']
-        print("path", path)
+        #print("path", path)
         if path == "quiz-form":
-            print("in quiz-form")
-    
+            # get the user's answer, the correct answer, and the word
             user_answer = request.form['answer']
             correct_answer = request.form['correct_answer']
             word = request.form['word']
@@ -98,9 +94,6 @@ def tajik_vocab():
                 flash('Correct!', 'success')
                 # log level, streak and highest streat
                 logger.info(f"Level: {session['level']}, Streak: {session['streak']}, Highest Streak: {session['highest_streak']}") 
-                # print("streak", session['streak'])
-                # print("highest streak", session['highest_streak'])
-
                 # Check if the streak is a multiple of 3 and increase the level unless it is already 20
                 if session['streak'] > 0 and session['streak'] % 3 == 0 and session['level'] < 20:
                     if session['level'] < 20:
@@ -137,17 +130,16 @@ def tajik_vocab():
                 # Give correct answer in a flash in the form english: tajik
                 flash(f'Incorrect. {word} : {correct_answer}', 'danger')
             
-            # Set the session variable to indicate that the user has answered a question
+            # Set the session variable to indicate that the user has answered a question, so streak is maintained
             session['answered_question'] = True
             # Set the session variable to indicate that the user is being redirected
             session['redirected'] = True
             # Redirect back to the same route route to get a new question
             return redirect(url_for('tajik_vocab'))
         if path == "index-form":
-            print("in index-form")
             # get the name and value from the radio button in index.html
             translation_direction = request.form['translation_direction']
-            print("translation_direction: ", translation_direction)
+            # print("translation_direction: ", translation_direction)
             session['translation_direction'] = translation_direction
             return redirect(url_for('tajik_vocab'))
 

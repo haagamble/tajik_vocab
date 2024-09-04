@@ -61,8 +61,9 @@ def reset_game_if_new_day():
     # logger.info(f"Last played date: {session['last_played']}")
     # logger.info(f"Today's date: {today}")   
 
+# function should return word, choices, correct_answer
 def get_new_question(level, trdir, words):
-    #try to get the word from the level and type and 3 other random choices
+    #try to get the word from the level and 3 other random choices
     max_retries = 10 # Maximum number of retries to get a new word
     for attempt in range(max_retries):
         try:
@@ -75,18 +76,14 @@ def get_new_question(level, trdir, words):
             #change to a lower level 20% of the time
             elif random.random() < 0.2 and level > 1:
                 #get a random number between 1 and the current level
-                level = random.randint(1, level)
-            # print("level: ", level)    
+                level = random.randint(1, level)   
             # Get a random word entry for the current level
             level_words = words[str(level)]
-            # print(level_words)
             # Ensure the new word is not in the previous words list
-            
             word_entry = random.choice(level_words)
             while word_entry['english'] in session['previous_words']:
                 word_entry = random.choice(level_words)
-
-            # if language is taj_to_eng get the tajik word
+            # if language is taj_to_eng get the tajik word, else get the english word
             if trdir == 'eng_to_taj':
                 word = word_entry['english']
                 correct_answer = word_entry['tajik']
