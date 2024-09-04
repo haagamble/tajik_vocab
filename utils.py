@@ -58,43 +58,54 @@ def reset_game_if_new_day():
     # logger.info(f"Today's date: {today}")   
 
 def get_new_question(level, words):
-    # Initialize previous words list in session if it doesn't exist
-    if 'previous_words' not in session:
-        session['previous_words'] = []
+    #try to get the word from the level and type and 3 other random choices
+    max_retries = 10 # Maximum number of retries to get a new word
+    for attempt in range(max_retries):
+        try:
 
-    # if level is 20 get word from a different level 50% of the time
-    if session['completed'] == True and random.random() < 0.5:
-        level = random.randint(1, 19)   
-    #change to a lower level 20% of the time
-    elif random.random() < 0.2 and level > 1:
-        #get a random number between 1 and the current level
-        level = random.randint(1, level)
-    # print("level: ", level)    
-    # Get a random word entry for the current level
-    level_words = words[str(level)]
-    # print(level_words)
-    # Ensure the new word is not in the previous words list
-    word_entry = random.choice(level_words)
-    while word_entry['english'] in session['previous_words']:
-        word_entry = random.choice(level_words)
+            # Initialize previous words list in session if it doesn't exist
+            if 'previous_words' not in session:
+                session['previous_words'] = []
 
-    correct_answer = word_entry['english']
-    #get type of word of word_entry
-    word_type = word_entry['type']
+            # if level is 20 get word from a different level 50% of the time
+            if session['completed'] == True and random.random() < 0.5:
+                level = random.randint(1, 19)   
+            #change to a lower level 20% of the time
+            elif random.random() < 0.2 and level > 1:
+                #get a random number between 1 and the current level
+                level = random.randint(1, level)
+            # print("level: ", level)    
+            # Get a random word entry for the current level
+            level_words = words[str(level)]
+            # print(level_words)
+            # Ensure the new word is not in the previous words list
+            
+            word_entry = random.choice(level_words)
+            while word_entry['english'] in session['previous_words']:
+                word_entry = random.choice(level_words)
 
-    # Update the previous words list, keeping size to 10
-    session['previous_words'].append(correct_answer)
-    if len(session['previous_words']) > 10:
-        session['previous_words'].pop(0)
-    # print(session['previous_words'])
+            correct_answer = word_entry['english']
+            #get type of word of word_entry
+            word_type = word_entry['type']
 
-    # Save the updated session
-    session.modified = True
+            # Update the previous words list, keeping size to 10
+            session['previous_words'].append(correct_answer)
+            if len(session['previous_words']) > 10:
+                session['previous_words'].pop(0)
+            # print(session['previous_words'])
 
-    # Generate choices including the correct answer and 3 random incorrect answers with the same tyep
-    choices = [correct_answer] + random.sample(
-        [entry['english'] for entry in level_words if entry != word_entry and entry['type'] == word_type], 3
-    )   
+            # Save the updated session
+            session.modified = True
 
-    random.shuffle(choices)
-    return word_entry['tajik'], choices, correct_answer
+            # Generate choices including the correct answer and 3 random incorrect answers with the same tyep
+            choices = [correct_answer] + random.sample(
+                [entry['english'] for entry in level_words if entry != word_entry and entry['type'] == word_type], 3
+            )   
+
+            random.shuffle(choices)
+            return word_entry['tajik'], choices, correct_answer
+        
+        except Exception as e:
+            # Log the error and try again
+            logger.error(f"Error getting new question: {e}: {correct_answer}")
+            continue
