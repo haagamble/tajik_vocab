@@ -13,8 +13,13 @@
     <li>Try to reach the highest level possible!</li>
     <li>Good luck and have fun!</li>
 </ul>
-<a href="{{ url_for('tajik_vocab') }}">
-    <button class="btn btn-primary">Start Game</button>
-</a>
-
+<!-- add radio button so user can use Tajik to English or English to Tajik-->
+<form action="{{ url_for('tajik_vocab') }}" id="quiz-form" method="post">
+    <input type="hidden" name="path" value="index-form">
+    <input type="radio" id="taj_to_eng" name="translation_direction" value="taj_to_eng" checked>
+    <label for="taj_to_eng">Tajik to English</label><br>
+    <input type="radio" id="eng_to_taj" name="translation_direction" value="eng_to_taj">
+    <label for="eng_to_taj">English to Tajik</label><br>
+    <button type="submit" class="btn btn-primary">Start Game</button>
+</form>
 {% endblock %}

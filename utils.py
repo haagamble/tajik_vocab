@@ -25,6 +25,9 @@ def initialize_session_variables():
     if 'level' not in session:
         session['level'] = 1
         logger.info("Session variable 'level' initialized")
+    if 'language' not in session:
+        session['language'] = 'taj_to_eng'
+        logger.info("Session variable 'language' initialized")
 
 def reset_game_if_new_day():
     # Get today's date
@@ -43,7 +46,7 @@ def reset_game_if_new_day():
     
     # Check if the last played date is not today
     if last_played is None or last_played != today:
-        # Reset the game state
+        # Reset the game state with these default values
         session['score'] = 0
         session['streak'] = 0
         session['highest_streak'] = 0
@@ -51,22 +54,21 @@ def reset_game_if_new_day():
         session['completed'] = False
         session['previous_words'] = []
         session['question_answered'] = False
+        session['translation_direction'] = 'taj_to_eng'
         # Update the last played date as a string
         session['last_played'] = today.strftime('%Y-%m-%d')
     
     # logger.info(f"Last played date: {session['last_played']}")
     # logger.info(f"Today's date: {today}")   
 
-def get_new_question(level, words):
+def get_new_question(level, trdir, words):
     #try to get the word from the level and type and 3 other random choices
     max_retries = 10 # Maximum number of retries to get a new word
     for attempt in range(max_retries):
         try:
-
             # Initialize previous words list in session if it doesn't exist
             if 'previous_words' not in session:
                 session['previous_words'] = []
-
             # if level is 20 get word from a different level 50% of the time
             if session['completed'] == True and random.random() < 0.5:
                 level = random.randint(1, 19)   
@@ -84,9 +86,26 @@ def get_new_question(level, words):
             while word_entry['english'] in session['previous_words']:
                 word_entry = random.choice(level_words)
 
-            correct_answer = word_entry['english']
+            # if language is taj_to_eng get the tajik word
+            if trdir == 'eng_to_taj':
+                word = word_entry['english']
+                correct_answer = word_entry['tajik']
+                language = 'tajik'
+            else:
+                word = word_entry['tajik']
+                correct_answer = word_entry['english']
+                language = 'english'
+
             #get type of word of word_entry
             word_type = word_entry['type']
+
+            # Generate choices including the correct answer and 3 random incorrect answers with the same type
+            possible_choices = [entry[language] for entry in level_words if entry != word_entry and word_entry['type'] == word_type]
+            if len(possible_choices) < 3:
+                logger.error(f"Not enough choices available for word type {word_type} at level {level}")
+                continue
+            choices = [correct_answer] + random.sample(possible_choices, 3)
+            random.shuffle(choices)
 
             # Update the previous words list, keeping size to 10
             session['previous_words'].append(correct_answer)
@@ -97,15 +116,13 @@ def get_new_question(level, words):
             # Save the updated session
             session.modified = True
 
-            # Generate choices including the correct answer and 3 random incorrect answers with the same tyep
-            choices = [correct_answer] + random.sample(
-                [entry['english'] for entry in level_words if entry != word_entry and entry['type'] == word_type], 3
-            )   
-
-            random.shuffle(choices)
-            return word_entry['tajik'], choices, correct_answer
+            return word, choices, correct_answer
         
         except Exception as e:
             # Log the error and try again
             logger.error(f"Error getting new question: {e}: {correct_answer}")
             continue
+
+    # If all retries fail, return None for all values
+    logger.error("Max retries reached, returning None for new question")
+    return None, None, None
