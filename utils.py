@@ -97,7 +97,7 @@ def get_new_question(level, trdir, words):
             word_type = word_entry['type']
 
             # Generate choices including the correct answer and 3 random incorrect answers with the same type
-            possible_choices = [entry[language] for entry in level_words if entry != word_entry and word_entry['type'] == word_type]
+            possible_choices = [entry[language] for entry in level_words if entry != word_entry and entry['type'] == word_type]
             if len(possible_choices) < 3:
                 logger.error(f"Not enough choices available for word type {word_type} at level {level}")
                 continue
